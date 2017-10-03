@@ -1,0 +1,3 @@
+DICTIONARIES/wordlist_small.txt
+INPUTS/lyrics.txt
+OUTPUTS/lyrics_out.txt

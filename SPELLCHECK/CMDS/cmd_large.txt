@@ -1,0 +1,3 @@
+DICTIONARIES/wlist_match1.txt
+INPUTS/eel_bye.txt
+OUTPUTS/eel_bye_out.txt

@@ -1,0 +1,273 @@
+#include <iostream>
+#include <fstream>
+#include <string>
+#include <vector>
+#include <time.h> // to check elapsed time of certain functions
+#include <algorithm> // to ease string lowercase conversion
+
+using namespace std;
+
+class hashTable {
+
+ public:
+
+  hashTable(int size = 0);
+  int insert(const string &key, void *pv = NULL);
+  bool contains(const string &key);
+  void *getPointer(const string &key, bool *b = NULL);
+  int setPointer(const string &key, void *pv);
+  bool remove(const string &key);
+
+  class hashItem {
+  public:
+    string key;
+    bool isOccupied;
+    bool isDeleted;
+    void *pv;
+  };
+
+  int capacity; // The current capacity of the hash table.
+  int filled; // Number of occupied items in the table.
+
+  vector<hashItem> data; // The actual entries are here.
+  int hash(const string &key);
+  int findPos(const string &key);
+  bool rehash();
+  static unsigned int getPrime(int size);
+};
+
+// Loads dictionary file into a hash table which is returned
+hashTable loadDictionary(const string &dictionary);
+void spellCheck(hashTable &htable, const string &inputfile, const string &outputfile);
+
+int main(){
+string dictionary, inputfile, outputfile;
+clock_t t;
+
+cout<<"Enter name of dictionary: ";
+cin>>dictionary;
+
+t = clock();
+hashTable h = loadDictionary(dictionary);
+t = clock() - t;
+double timeDiff = ((double)(t))/CLOCKS_PER_SEC;
+
+//cout<<"contains 'if': "<<h.contains("if")<<endl;
+
+cout<<"Total time (in seconds) to load dictionary: "<<timeDiff<<"\n";
+
+cout<<"Enter name of input file: ";
+cin>>inputfile;
+cout<<"Enter name of output file: ";
+cin>>outputfile;
+
+t = clock();
+spellCheck(h, inputfile, outputfile);
+t = clock()-t;
+
+timeDiff = ((double)(t))/CLOCKS_PER_SEC;
+
+cout<<"Total time (in seconds) to check document: "<<timeDiff<<"\n";
+
+return 0;
+}
+
+hashTable loadDictionary(const string &dictionary){
+  string line;
+  ifstream input(dictionary);
+
+  hashTable htable(50000);
+
+  // Opens input file, safeguards against failure of opening
+  if(input.is_open()){
+    while(getline(input, line)){
+      bool is_valid = true;
+
+      for(int i=0; i<line.length(); i++){
+        if(!(('A'<=line[i]&&line[i]<='Z')||('a'<=line[i]&&line[i]<='z')))
+          is_valid = false;
+      }
+      if(is_valid){
+        string key = line.substr(0, line.length());
+        // to lowercase conversion using algorithm library
+        transform(key.begin(), key.end(), key.begin(),::tolower);
+        htable.insert(key);
+      }
+    }
+    input.close();
+  } else
+    cout<<"Unable to open file"<<endl;
+
+  return htable;
+}
+
+
+void spellCheck(hashTable &htable, const string &inputfile, const string &outputfile){
+  int line_count = 1;
+  int letter_count = 0;
+  char c;
+  string word(20, 'x'); //initialize size 20 word (to garbage values)
+  bool check_spelling = true;
+
+  ifstream input(inputfile);
+  ofstream output;
+
+  // Opens input file, safeguards against failure of opening
+  if(input.is_open()){
+    output.open(outputfile);
+
+    // Iterates line by line through input file
+    while(input.get(c)){
+
+      // valid character condition
+      if(('0'<=c&&c<='9')||('A'<=c&&c<='Z')||('a'<=c&&c<='z')||c=='-'||c=='\''){
+        // words containing these don't need to be checked
+        if('0'<=c&&c<='9')
+          check_spelling = false;
+
+        word[letter_count++] = c;
+
+        if(letter_count>=21){ // word too long
+          if(letter_count==21){
+            string longword = word.substr(0,20);
+            // to lowercase conversion using algorithm library
+            transform(longword.begin(), longword.end(), longword.begin(),::tolower);
+
+            output<<"Long word at line "<<line_count<<", starts: "
+            <<longword<<"\n";
+          }
+          check_spelling = false;
+        }
+      } else {
+        if(check_spelling&&letter_count!=0){ //invalid character condition reached
+          string key = word.substr(0, letter_count);
+          // to lowercase conversion using algorithm library
+          transform(key.begin(), key.end(), key.begin(),::tolower);
+
+          if(!htable.contains(key))
+            output<<"Unknown word at line "<<line_count<<": "<<key<<"\n";
+        }
+        // reset variables for next word
+        letter_count = 0;
+        check_spelling = true; // default state is to check spelling
+      }
+
+      if(c=='\n')
+        line_count++;
+    }
+
+    input.close();
+    output.close();
+  } else
+    cout<<"Unable to open file"<<endl;
+}
+
+
+//Class GLOBAL
+// List of primes optimal for hash table use
+// from size 49,000 to 50,000,000
+static const unsigned int primes[] = {49157, 98317, 196613, 393241, 786433,
+                                      1572869, 3145739, 6291469, 12582917,
+                                      25165843, 50331653};
+
+//PUBLIC Member Function definitions
+hashTable::hashTable(int size){
+  this->capacity = this->getPrime(size);
+  this->data.resize(capacity);
+  this->filled = 0;
+}
+
+int hashTable::insert(const string &key, void *pv){
+  int i = this->hash(key);
+  while(this->data.at(i).isOccupied){ // Linear Probing
+    if(this->data.at(i).key == key) // if key already exists in hash table
+      return 1;
+    i++;
+  }
+  // insertion
+  data.at(i).key = key,
+  data.at(i).isOccupied = true,
+  data.at(i).isDeleted = false,
+  data.at(i).pv = pv;
+  this->filled++;
+
+  // rehashing condition: filled > capacity/2
+  if((this->filled) > ((this->capacity)/2)){
+    if(!this->rehash()) // rehash fails
+      return 2;
+  }
+  return 0;
+}
+
+bool hashTable::contains(const string &key){
+  if(findPos(key)>=0) // findPos returns -1 when key doesn't exist
+    return true;
+  return false;
+}
+
+// Yet to be implemented
+void *hashTable::getPointer(const string &key, bool *b){return b;}
+int setPointer(const string &key, void *pv){return 0;}
+bool hashTable::remove(const string &key){return false;}
+
+// PRIVATE Member Function definitions
+int hashTable::hash(const string &key){
+  unsigned long hash = 5381;
+  int c;
+  int i=0;
+  while ((c = key[i++]))
+    hash = ((hash << 5) + hash) + c; /* hash * 33 + c */
+
+  return hash%(this->capacity-1); //index ranging from 0->(capacity-1)
+}
+
+int hashTable::findPos(const string &key){
+  int i = this->hash(key); // set starting index at key's hash value
+  while(this->data.at(i).isOccupied){ // Linear Probing
+    if(this->data.at(i).key == key) // if key already exists in hash table
+      return i;
+    i++;
+  }
+  return -1;
+}
+
+bool hashTable::rehash(){
+  vector<hashItem> v; // new data table
+
+
+  // p prime capacity of new table
+  unsigned int p = this->getPrime(this->capacity*2);
+
+  try{ // try to make new table double the size of current
+    v.resize(p);
+  } catch(bad_alloc){ // if memory allocation fails print an error
+    cerr<<"ERROR: Failed rehash."<<endl;
+    return false;
+  }
+
+  // Swap vectors v & data s.t. hashTable object
+  // has blank table of double capacity.
+  this->data.swap(v);
+  this->capacity = p;
+  this->filled = 0;
+
+  vector<hashItem>::iterator itr;
+  // iterate through old table, hashing items into new table
+  for(itr = v.begin(); itr < v.end(); itr++){
+    if(itr->isDeleted == false) // leave out lazy deletions
+      this->insert(itr->key, itr->pv);
+  }
+
+  return true;
+}
+
+unsigned int hashTable::getPrime(int size){
+  unsigned int p = primes[0]; //initialize p to first prime in array
+  int i = 0;
+  if(size<primes[10]){ //to prevent index i going beyond array bounds
+    while(size>primes[i++]) //brings p to first prime larger than size
+      p = primes[i];
+    return p;
+  }
+  return -1;
+}

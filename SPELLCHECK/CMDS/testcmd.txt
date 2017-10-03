@@ -1,0 +1,1 @@
+DICTIONARIES/wordlist_small.txt
