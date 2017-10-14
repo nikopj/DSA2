@@ -74,8 +74,8 @@ private:
 
   int size;
   int capacity;
-  vector::vector<node> data; // The actual binary heap
-  hashtable::hashTable *mapping; // maps ids to node pointers
+  std::vector<node> data; // The actual binary heap
+  hashTable *mapping; // maps ids to node pointers
 
   void percolateUp(int posCur);
   void percolateDown(int posCur);

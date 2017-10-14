@@ -66,10 +66,12 @@ bool hashTable::contains(const string &key){
 void *hashTable::getPointer(const string &key, bool *b){
   int n = findPos(key);
   if(n>=0){
-    *b = true;
+    if(b!=NULL)
+      *b = true;
     return data.at(n).pv;
   }
-  *b = false;
+  if(b!=NULL)
+    *b = false;
   return NULL;
 }
 
@@ -80,7 +82,7 @@ int hashTable::setPointer(const string &key, void *pv){
   int n = findPos(key);
   if(n>=0){
     data.at(n).pv = pv;
-    return 0
+    return 0;
   }
   return 1;
 }
@@ -88,7 +90,14 @@ int hashTable::setPointer(const string &key, void *pv){
 // Delete the item with the specified key.
 // Returns true on success,
 // false if the specified key is not in the hash table.
-bool hashTable::remove(const string &key){return false;}
+bool hashTable::remove(const string &key){
+  int i = findPos(key);
+  if(i>=0){
+    data.at(i).isDeleted = true;
+    return true;
+  }
+  return false;
+}
 
 // PRIVATE Member Function definitions
 int hashTable::hash(const string &key){
@@ -111,6 +120,8 @@ int hashTable::findPos(const string &key){
     i++;
     if(i>capacity)
       i=0;
+    if(i==hash(key))
+      return -1;
   }
   return -1;
 }
