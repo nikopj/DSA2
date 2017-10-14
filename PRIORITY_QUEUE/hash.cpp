@@ -1,8 +1,6 @@
 #include <iostream>
 #include "hash.h"
 
-// NOTE: MUST use ::hash() to use hash function defined in hash.h
-// otherwise hash() conflicts with c++ library hash function
 using namespace std;
 
 //Class GLOBAL
@@ -12,43 +10,84 @@ static const unsigned int primes[] = {196613, 393241, 786433,
 1572869, 3145739, 6291469, 12582917, 25165843, 50331653};
 
 //PUBLIC Member Function definitions
+
+// The constructor initializes the hash table.
+// Uses getPrime to choose a prime number at least as large as
+// the specified size for the initial size of the hash table.
 hashTable::hashTable(int size){
-  this->capacity = this->getPrime(size);
-  this->data.resize(capacity);
-  this->filled = 0;
+  capacity = getPrime(size);
+  data.resize(capacity);
+  filled = 0;
 }
 
+// Insert the specified key into the hash table.
+// If an optional pointer is provided,
+// associate that pointer with the key.
+// Returns 0 on success,
+// 1 if key already exists in hash table,
+// 2 if rehash fails.
 int hashTable::insert(const string &key, void *pv){
-  int i = this->hash(key);
-  while(this->data.at(i).isOccupied){ // Linear Probing
-    if(this->data.at(i).key == key) // if key already exists in hash table
+  int i = hash(key);
+  while(data.at(i).isOccupied){ // Linear Probing
+    if(data.at(i).key == key) // if key already exists in hash table
       return 1;
     i++;
+    if(i>capacity)
+      i=0;
   }
   // insertion
   data.at(i).key = key,
   data.at(i).isOccupied = true,
   data.at(i).isDeleted = false,
   data.at(i).pv = pv;
-  this->filled++;
+  filled++;
 
   // rehashing condition: filled > capacity/2
-  if((this->filled) > ((this->capacity)/2)){
-    if(!this->rehash()) // rehash fails
+  if((filled) > ((capacity)/2)){
+    if(!rehash()) // rehash fails
       return 2;
   }
   return 0;
 }
 
+// Check if the specified key is in the hash table.
+// If so, return true; otherwise, return false.
 bool hashTable::contains(const string &key){
   if(findPos(key)>=0) // findPos returns -1 when key doesn't exist
     return true;
   return false;
 }
 
-// Yet to be implemented
-void *hashTable::getPointer(const string &key, bool *b){return b;}
-int setPointer(const string &key, void *pv){return 0;}
+// Get the pointer associated with the specified key.
+// If the key does not exist in the hash table, return NULL.
+// If an optional pointer to a bool is provided,
+// set the bool to true if the key is in the hash table,
+// and set the bool to false otherwise.
+void *hashTable::getPointer(const string &key, bool *b){
+  int n = findPos(key);
+  if(n>=0){
+    *b = true;
+    return data.at(n).pv;
+  }
+  *b = false;
+  return NULL;
+}
+
+// Set the pointer associated with the specified key.
+// Returns 0 on success,
+// 1 if the key does not exist in the hash table.
+int hashTable::setPointer(const string &key, void *pv){
+  int n = findPos(key);
+  if(n>=0){
+    data.at(n).pv = pv;
+    return 0
+  }
+  return 1;
+}
+
+// Delete the item with the specified key.
+// Returns true on success,
+// false if the specified key is not in the hash table.
 bool hashTable::remove(const string &key){return false;}
 
 // PRIVATE Member Function definitions
@@ -59,24 +98,30 @@ int hashTable::hash(const string &key){
   while ((c = key[i++]))
     hash = ((hash << 5) + hash) + c; /* hash * 33 + c */
 
-  return hash%(this->capacity-1); //index ranging from 0->(capacity-1)
+  return hash%(capacity-1); //index ranging from 0->(capacity-1)
 }
 
+// Search for an item with the specified key.
+// Return the position if found, -1 otherwise.
 int hashTable::findPos(const string &key){
-  int i = this->hash(key); // set starting index at key's hash value
-  while(this->data.at(i).isOccupied){ // Linear Probing
-    if(this->data.at(i).key == key) // if key already exists in hash table
+  int i = hash(key); // set starting index at key's hash value
+  while(data.at(i).isOccupied){ // Linear Probing
+    if(data.at(i).key == key) // if key already exists in hash table
       return i;
     i++;
+    if(i>capacity)
+      i=0;
   }
   return -1;
 }
 
+// The rehash function; makes the hash table bigger.
+// Returns true on success, false if memory allocation fails.
 bool hashTable::rehash(){
   vector<hashItem> v; // new data table
 
   // p prime capacity of new table
-  unsigned int p = this->getPrime(this->capacity*2);
+  unsigned int p = getPrime(capacity*2);
 
   try{ // try to make new table double the size of current
     v.resize(p);
@@ -87,20 +132,22 @@ bool hashTable::rehash(){
 
   // Swap vectors v & data s.t. hashTable object
   // has blank table of double capacity.
-  this->data.swap(v);
-  this->capacity = p;
-  this->filled = 0;
+  data.swap(v);
+  capacity = p;
+  filled = 0;
 
   vector<hashItem>::iterator itr;
   // iterate through old table, hashing items into new table
   for(itr = v.begin(); itr < v.end(); itr++){
     if(itr->isDeleted == false) // leave out lazy deletions
-      this->insert(itr->key, itr->pv);
+      insert(itr->key, itr->pv);
   }
 
   return true;
 }
 
+// Return a prime number at least as large as size.
+// Uses a precomputed sequence of selected prime numbers.
 unsigned int hashTable::getPrime(int size){
   unsigned int p = primes[0]; //initialize p to first prime in array
   int i = 0;
