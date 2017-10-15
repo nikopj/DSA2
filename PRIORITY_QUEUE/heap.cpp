@@ -98,6 +98,7 @@ int heap::deleteMin(string *pId, int *pKey, void *ppData){
   data[1].key = data.at(size).key;
   data[1].pData = data.at(size).pData;
   mapping->setPointer(data[1].id, &data[1]);
+
   size--;
   percolateDown(1);
   return 0;
@@ -134,11 +135,13 @@ int heap::remove(const string &id, int *pKey, void *ppData){
   percolateDown(i);
 
   mapping->remove(id);
-
   size--;
   return 0;
 }
 
+// Moves node at current position up
+// through tree if key < parents key.
+// Stops at root
 void heap::percolateUp(int posCur){
   // hole method of percolate:
   // copy contents of node to percolate into temporary storage.
@@ -162,6 +165,9 @@ void heap::percolateUp(int posCur){
   mapping->setPointer(temp_id, &data.at(posCur));
 }
 
+// Moves node at current poisition down
+// through tree if key > either children's key.
+// Stops when node has no children.
 void heap::percolateDown(int posCur){
   // hole method of percolate:
   // copy contents of node to percolate into temporary storage.
@@ -198,6 +204,8 @@ void heap::percolateDown(int posCur){
   mapping->setPointer(temp_id, &data.at(posCur));
 }
 
+// returns index of node in the heap array given a pointer to it.
+// node pointer generally comes from a hashtable.
 int heap::getPos(node *pn){
   int pos = pn - &data[0];
   return pos;
@@ -207,7 +215,7 @@ int heap::getPos(node *pn){
 void heap::printHeap(){
   int n = 1;
   cout<<endl;
-  for(int i=1; i<size; i++){
+  for(int i=1; i<=size; i++){
     cout<<data.at(i).id<<": "<<data.at(i).key<<", ";
     if(i+1==pow(2,n)){
       cout<<"\n";

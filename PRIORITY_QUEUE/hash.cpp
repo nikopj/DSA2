@@ -6,7 +6,7 @@ using namespace std;
 //Class GLOBAL
 // List of primes optimal for hash table use
 // from size 49,000 to 50,000,000
-static const unsigned int primes[] = {196613, 393241, 786433,
+static const unsigned int primes[] = {24593, 49157, 98317, 196613, 393241, 786433,
 1572869, 3145739, 6291469, 12582917, 25165843, 50331653};
 
 //PUBLIC Member Function definitions
@@ -32,7 +32,7 @@ int hashTable::insert(const string &key, void *pv){
     if(data.at(i).key == key) // if key already exists in hash table
       return 1;
     i++;
-    if(i>capacity)
+    if(i==capacity)
       i=0;
   }
   // insertion
@@ -120,10 +120,8 @@ int hashTable::findPos(const string &key){
     if(data.at(i).key == key) // if key already exists in hash table
       return i;
     i++;
-    if(i>capacity)
+    if(i==capacity)
       i=0;
-    if(i==i0) // if looped through the entire table
-      return -1;
   }
   return -1;
 }

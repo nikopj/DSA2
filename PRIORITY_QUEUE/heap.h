@@ -72,16 +72,27 @@ private:
     void *pData; // A pointer to the actual data
   };
 
-  int size;
+  int size; //position of last element in data
   int capacity;
   std::vector<node> data; // The actual binary heap
   hashTable *mapping; // maps ids to node pointers
 
+  // Moves node at current position up
+  // through tree if key < parents key.
+  // Stops at root
   void percolateUp(int posCur);
-  void percolateDown(int posCur);
-  int getPos(node *pn);
-  void printHeap();
 
+  // Moves node at current poisition down
+  // through tree if key > either children's key.
+  // Stops when node has no children.
+  void percolateDown(int posCur);
+
+  // returns index of node in the heap array given a pointer to it.
+  // node pointer generally comes from a hashtable.
+  int getPos(node *pn);
+
+  // private function for BUGTESTING.
+  void printHeap();
 };
 
 #endif //_HEAP_H
