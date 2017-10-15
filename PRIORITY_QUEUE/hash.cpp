@@ -94,6 +94,7 @@ bool hashTable::remove(const string &key){
   int i = findPos(key);
   if(i>=0){
     data.at(i).isDeleted = true;
+    data.at(i).isOccupied = false;
     return true;
   }
   return false;
@@ -114,13 +115,14 @@ int hashTable::hash(const string &key){
 // Return the position if found, -1 otherwise.
 int hashTable::findPos(const string &key){
   int i = hash(key); // set starting index at key's hash value
+  int i0 = i;
   while(data.at(i).isOccupied){ // Linear Probing
     if(data.at(i).key == key) // if key already exists in hash table
       return i;
     i++;
     if(i>capacity)
       i=0;
-    if(i==hash(key))
+    if(i==i0) // if looped through the entire table
       return -1;
   }
   return -1;

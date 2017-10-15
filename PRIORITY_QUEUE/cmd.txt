@@ -28,7 +28,8 @@ string seven
 string four
 4
 2
-string one50
+string one
+50
 3
 string two
 4
@@ -39,4 +40,4 @@ string five
 4
 4
 4
-4
+5

@@ -80,6 +80,7 @@ private:
   void percolateUp(int posCur);
   void percolateDown(int posCur);
   int getPos(node *pn);
+  void printHeap();
 
 };
 

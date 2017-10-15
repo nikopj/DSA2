@@ -1,6 +1,7 @@
 #include <vector>
 #include <string>
 #include <iostream>
+#include <cmath> //BUGTESTING
 #include "heap.h"
 #include "hash.h"
 
@@ -12,8 +13,8 @@ using namespace std;
 heap::heap(int capacity){
   data.resize(capacity+1);
   mapping = new hashTable(capacity*2);
-  size = 1;
-  this->capacity = capacity;
+  size = 0;
+  this->capacity = capacity+1;
 }
 
 // insert - Inserts a new node into the binary heap
@@ -33,14 +34,13 @@ int heap::insert(const string &id, int key, void *pv){
     return 1;
   if(mapping->contains(id))
     return 2;
-
+  size++;
   data.at(size).id = id;
   data.at(size).key = key;
   data.at(size).pData = pv;
   mapping->insert(id, &data.at(size));
   if(key<data.at(size/2).key)
     percolateUp(size);
-  size++;
   return 0;
 }
 
@@ -83,7 +83,7 @@ int heap::setKey(const string &id, int key){
 //   1 if the heap is empty
 //
 int heap::deleteMin(string *pId, int *pKey, void *ppData){
-  if(size==1)
+  if(size==0)
     return 1;
   // get min values
   if(pId!=NULL)
@@ -93,14 +93,13 @@ int heap::deleteMin(string *pId, int *pKey, void *ppData){
   if(ppData!=NULL)
     *(static_cast<void **> (ppData)) = data[1].pData;
   mapping->remove(data[1].id);
-
   // move last item to root and percolate down
   data[1].id = data.at(size).id;
   data[1].key = data.at(size).key;
   data[1].pData = data.at(size).pData;
   mapping->setPointer(data[1].id, &data[1]);
-  percolateDown(1);
   size--;
+  percolateDown(1);
   return 0;
 }
 
@@ -128,9 +127,9 @@ int heap::remove(const string &id, int *pKey, void *ppData){
     *(static_cast<void **> (ppData)) = data[i].pData;
 
   // move last item to position i, percolate down
-  data[i].id = data.at(size-1).id;
-  data[i].key = data.at(size-1).key;
-  data[i].pData = data.at(size-1).pData;
+  data[i].id = data.at(size).id;
+  data[i].key = data.at(size).key;
+  data[i].pData = data.at(size).pData;
   mapping->setPointer(data[i].id, &data[i]);
   percolateDown(i);
 
@@ -172,6 +171,11 @@ void heap::percolateDown(int posCur){
 
   while((temp_key>data.at(2*posCur).key||temp_key>data.at(2*posCur+1).key)
         && posCur!=size){
+
+    // if there are no children, stop at current position
+    if(data.at(2*posCur).id==""){
+      break;
+    }
     // check if node swap occurs with left or right child
     int n;
     if(data.at(2*posCur).key<=data.at(2*posCur+1).key){
@@ -197,4 +201,18 @@ void heap::percolateDown(int posCur){
 int heap::getPos(node *pn){
   int pos = pn - &data[0];
   return pos;
+}
+
+// BUGTESTING
+void heap::printHeap(){
+  int n = 1;
+  cout<<endl;
+  for(int i=1; i<size; i++){
+    cout<<data.at(i).id<<": "<<data.at(i).key<<", ";
+    if(i+1==pow(2,n)){
+      cout<<"\n";
+      n++;
+    }
+  }
+  cout<<endl;
 }
