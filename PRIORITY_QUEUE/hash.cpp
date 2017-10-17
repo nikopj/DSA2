@@ -29,16 +29,23 @@ hashTable::hashTable(int size){
 int hashTable::insert(const string &key, void *pv){
   int i = hash(key);
   while(data.at(i).isOccupied){ // Linear Probing
-    if(data.at(i).key == key) // if key already exists in hash table
+    if(data.at(i).key == key){ // if key already exists in hash table
+      if(data.at(i).isDeleted){ // deleted key exists
+        data.at(i).isDeleted = false;
+        data.at(i).pv = pv;
+        return 0;
+      }
       return 1;
+    }
     i++;
-    if(i==capacity)
+    if(i==capacity){
       i=0;
+    }
   }
   // insertion
-  data.at(i).key = key,
-  data.at(i).isOccupied = true,
-  data.at(i).isDeleted = false,
+  data.at(i).key = key;
+  data.at(i).isOccupied = true;
+  data.at(i).isDeleted = false;
   data.at(i).pv = pv;
   filled++;
 
@@ -70,8 +77,9 @@ void *hashTable::getPointer(const string &key, bool *b){
       *b = true;
     return data.at(n).pv;
   }
-  if(b!=NULL)
+  if(b!=NULL){
     *b = false;
+  }
   return NULL;
 }
 
@@ -94,7 +102,6 @@ bool hashTable::remove(const string &key){
   int i = findPos(key);
   if(i>=0){
     data.at(i).isDeleted = true;
-    data.at(i).isOccupied = false;
     return true;
   }
   return false;
@@ -115,10 +122,14 @@ int hashTable::hash(const string &key){
 // Return the position if found, -1 otherwise.
 int hashTable::findPos(const string &key){
   int i = hash(key); // set starting index at key's hash value
-  int i0 = i;
   while(data.at(i).isOccupied){ // Linear Probing
-    if(data.at(i).key == key) // if key already exists in hash table
+    // if key already exists in hash table
+    if(data.at(i).key == key){
+      if(data.at(i).isDeleted){
+        return -1;
+      }
       return i;
+    }
     i++;
     if(i==capacity)
       i=0;
@@ -169,4 +180,17 @@ unsigned int hashTable::getPrime(int size){
     return p;
   }
   return -1;
+}
+
+int hashTable::printTable(){
+  vector<hashItem>::iterator itr;
+  int count=0;
+  for(itr = data.begin(); itr < data.end(); itr++){
+    if(itr->isOccupied == true && itr->isDeleted == false){ // leave out lazy deletions
+      cout<<itr->key<<", ";
+      count++;
+    }
+  }
+  cout<<endl;
+  return count;
 }

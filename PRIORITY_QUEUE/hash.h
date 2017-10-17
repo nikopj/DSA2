@@ -42,6 +42,7 @@ class hashTable {
   // Returns true on success,
   // false if the specified key is not in the hash table.
   bool remove(const string &key);
+  int printTable();
 
  private:
 
