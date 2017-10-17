@@ -1,0 +1,36 @@
+// BUGTESTING
+void heap::printHeap(){
+  int n = 0;
+  cerr<<"\nsize: "<<size<<endl;
+  cerr<<"\n"<<endl;
+  for(int i=0; i<=size; i++){
+    cerr<<data.at(i).id<<": "<<data.at(i).key<<", ";
+    if(i+1==pow(2,n)){
+      cerr<<"\n";
+      n++;
+    }
+  }
+  cerr<<"\n"<<endl;
+  n = mapping->printTable();
+  cerr<<endl;
+  if(n!=size){
+    cerr<<"ERRORERRORERRORERROR\nERRORERRORERRORERROR\nERRORERRORERRORERROR\n"
+        <<"ERRORERRORERRORERROR\nERRORERRORERRORERROR\nERRORERRORERRORERROR\n"
+        <<"ERRORERRORERRORERROR\nERRORERRORERRORERROR\nERRORERRORERRORERROR\n"
+        <<"ERRORERRORERRORERROR\nERRORERRORERRORERROR\n"<<endl;
+  }
+}
+
+
+int hashTable::printTable(){
+  vector<hashItem>::iterator itr;
+  int count=0;
+  for(itr = data.begin(); itr < data.end(); itr++){
+    if(itr->isOccupied == true && itr->isDeleted == false){ // leave out lazy deletions
+      cout<<itr->key<<", ";
+      count++;
+    }
+  }
+  cout<<endl;
+  return count;
+}

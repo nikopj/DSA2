@@ -30,12 +30,11 @@ heap::heap(int capacity){
 //     is not filled to capacity)
 //
 int heap::insert(const string &id, int key, void *pv){
-  printHeap();
-  if(size>=capacity) //just to be safe
+  if(size>=capacity)
     return 1;
   if(mapping->contains(id)){
     if(size==0){
-      cerr<<"ERROR: mapping should contain no IDs!"<<endl;
+      cerr<<"Insert_ERROR: mapping should contain no IDs!"<<endl;
     }
     return 2;
   }
@@ -44,13 +43,11 @@ int heap::insert(const string &id, int key, void *pv){
   data.at(size).key = key;
   data.at(size).pData = pv;
   if(mapping->insert(id, &data.at(size))){
-    cerr<<"ERROR: Failed insert."<<endl;
+    cerr<<"Insert_ERROR: Failed insert."<<endl;
   }
   if(key<data.at(size/2).key){
     percolateUp(size);
   }
-  printHeap();
-
   return 0;
 }
 
@@ -64,7 +61,6 @@ int heap::insert(const string &id, int key, void *pv){
 //   1 if a node with the given id does not exist
 //
 int heap::setKey(const string &id, int key){
-  printHeap();
   bool  b;
   node *pn = static_cast<node *> (mapping->getPointer(id, &b));
   // item with given id doesn't exist in mapping
@@ -73,7 +69,6 @@ int heap::setKey(const string &id, int key){
   int i = getPos(pn);
   // setting of key
   data.at(i).key = key;
-
   if(size==1){
     return 0;
   }
@@ -81,21 +76,16 @@ int heap::setKey(const string &id, int key){
   // percolation
   if(key<data.at(i/2).key){ //key less than parent's
     percolateUp(i);
-
-  } else if(data.at(2*i).id!=""){ // 1st child exists
+  } else if(size>=2*i){ // 1st child exists
     if(key>data.at(2*i).key){ // 1st childs key less than that of parent
       percolateDown(i);
 
-    } else if(data.at(2*i+1).id!=""){ // 2nd child exists
+    } else if(size>=2*i+1){ // 2nd child exists
       if(key>data.at(2*i+1).key){ // 2nds childs key less than
         percolateDown(i);
-
       }
     }
   }
-
-  printHeap();
-
   return 0;
 }
 
@@ -112,8 +102,6 @@ int heap::setKey(const string &id, int key){
 //   1 if the heap is empty
 //
 int heap::deleteMin(string *pId, int *pKey, void *ppData){
-  printHeap();
-
   if(size==0)
     return 1;
   // get min values
@@ -125,13 +113,12 @@ int heap::deleteMin(string *pId, int *pKey, void *ppData){
     *(static_cast<void **> (ppData)) = data[1].pData;
 
   if(!mapping->hashTable::remove(data[1].id)){
-    cerr<<"ERROR: ID not in hashtable!"<<endl;
+    cerr<<"Dmin_ERROR: ID not in hashtable!"<<endl;
   }
-
   // don't move nodes if this was the only item
   if(size==1){
     size--;
-    printHeap();
+
     return 0;
   }
   // move last item to root and percolate down
@@ -139,13 +126,10 @@ int heap::deleteMin(string *pId, int *pKey, void *ppData){
   data[1].key = data.at(size).key;
   data[1].pData = data.at(size).pData;
   if(mapping->setPointer(data[1].id, &data[1])){
-    cerr<<"ERROR: Pointer not set!"<<endl;
+    cerr<<"Dmin_ERROR: Pointer not set!"<<endl;
   }
   size--;
   percolateDown(1);
-
-  printHeap();
-
   return 0;
 }
 
@@ -160,8 +144,6 @@ int heap::deleteMin(string *pId, int *pKey, void *ppData){
 //   1 if a node with the given id does not exist
 //
 int heap::remove(const string &id, int *pKey, void *ppData){
-  printHeap();
-
   bool b;
   node *pn = static_cast<node *> (mapping->getPointer(id, &b));
 
@@ -177,34 +159,28 @@ int heap::remove(const string &id, int *pKey, void *ppData){
     *(static_cast<void **> (ppData)) = data[i].pData;
 
   if(!mapping->hashTable::remove(data[i].id)){
-    cerr<<"ERROR: ID not in hashtable!"<<endl;
+    cerr<<"Remove_ERROR: ID not in hashtable!"<<endl;
   }
   if(size==0){
-    cerr<<"ERROR: Size == 0! Removing non-existent node!\n"
+    cerr<<"Remove_ERROR: Size == 0! Removing non-existent node!\n"
         <<"\tID to remove: "<<id<<"\n"
         <<"\tID found: "<<data[i].id<<endl;
   }
-
-  // don't move nodes around if this is the last item
-  if(size==1){
+  // don't move nodes around if this is the or last item
+  if(size==1 || i==size){
     size--;
-    printHeap();
     return 0;
   }
-
   // move last item to position i, percolate down
   data[i].id = data.at(size).id;
   data[i].key = data.at(size).key;
   data[i].pData = data.at(size).pData;
 
   if(mapping->setPointer(data[i].id, &data[i])){
-    cerr<<"ERROR: Pointer not set!"<<endl;
+    cerr<<"Remove_ERROR: Pointer not set!"<<endl;
   }
   size--;
   percolateDown(i);
-
-  printHeap();
-
   return 0;
 }
 
@@ -224,7 +200,7 @@ void heap::percolateUp(int posCur){
     data.at(posCur).key = data.at(posCur/2).key;
     data.at(posCur).pData = data.at(posCur/2).pData;
     if(mapping->setPointer(data.at(posCur).id, &data.at(posCur))){
-      cerr<<"ERROR: Pointer not set!"<<endl;
+      cerr<<"PercUp_ERROR: Pointer not set!"<<endl;
     }
     // hole moves one node up
     posCur = posCur/2;
@@ -234,7 +210,7 @@ void heap::percolateUp(int posCur){
   data.at(posCur).key = temp_key;
   data.at(posCur).pData = temp_pData;
   if(mapping->setPointer(temp_id, &data.at(posCur))){
-    cerr<<"ERROR: Pointer not set!"<<endl;
+    cerr<<"PercUp_ERROR: Pointer not set!"<<endl;
   }
 }
 
@@ -248,11 +224,7 @@ void heap::percolateDown(int posCur){
   int temp_key = data.at(posCur).key;
   void *temp_pData = data.at(posCur).pData;
 
-  while(temp_key>data.at(2*posCur).key||temp_key>data.at(2*posCur+1).key){
-    // if there are no children, stop at current position
-    if(2*posCur>size){
-      break;
-    }
+  while((2*posCur<size) && (temp_key>data.at(2*posCur).key||temp_key>data.at(2*posCur+1).key)){
     // check if node swap occurs with left or right child
     int n;
     if(2*posCur+1>size){
@@ -262,18 +234,13 @@ void heap::percolateDown(int posCur){
     } else {
       n = 1;
     }
-    // if the node is empty, do not swap.
-    if(data.at(2*posCur+n).id==""){
-      posCur = 2*posCur+n;
-      break;
-    }
 
     // move child node up to parent
     data.at(posCur).id = data.at(2*posCur+n).id;
     data.at(posCur).key = data.at(2*posCur+n).key;
     data.at(posCur).pData = data.at(2*posCur+n).pData;
     if(mapping->setPointer(data.at(posCur).id, &data.at(posCur))){
-      cerr<<"ERROR: Pointer not set!"<<endl;
+      cerr<<"PercDown_ERROR: Pointer not set!"<<endl;
     }
     // hole moves one node up
     posCur = 2*posCur+n;
@@ -283,7 +250,7 @@ void heap::percolateDown(int posCur){
   data.at(posCur).key = temp_key;
   data.at(posCur).pData = temp_pData;
   if(mapping->setPointer(temp_id, &data.at(posCur))){
-    cerr<<"ERROR: Pointer not set!"<<endl;
+    cerr<<"PercDown_ERROR: Pointer not set!"<<endl;
   }
 }
 
@@ -292,27 +259,4 @@ void heap::percolateDown(int posCur){
 int heap::getPos(node *pn){
   int pos = pn - &data[0];
   return pos;
-}
-
-// BUGTESTING
-void heap::printHeap(){
-  int n = 0;
-  cout<<"\nsize: "<<size<<endl;
-  cout<<"\n"<<endl;
-  for(int i=0; i<=size+8; i++){
-    cout<<data.at(i).id<<": "<<data.at(i).key<<", ";
-    if(i+1==pow(2,n)){
-      cout<<"\n";
-      n++;
-    }
-  }
-  cout<<"\n"<<endl;
-  n = mapping->printTable();
-  cout<<endl;
-  if(n!=size){
-    cout<<"ERRORERRORERRORERROR\nERRORERRORERRORERROR\nERRORERRORERRORERROR\n"
-        <<"ERRORERRORERRORERROR\nERRORERRORERRORERROR\nERRORERRORERRORERROR\n"
-        <<"ERRORERRORERRORERROR\nERRORERRORERRORERROR\nERRORERRORERRORERROR\n"
-        <<"ERRORERRORERRORERROR\nERRORERRORERRORERROR\n"<<endl;
-  }
 }

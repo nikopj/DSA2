@@ -90,9 +90,6 @@ private:
   // returns index of node in the heap array given a pointer to it.
   // node pointer generally comes from a hashtable.
   int getPos(node *pn);
-
-  // private function for BUGTESTING.
-  void printHeap();
 };
 
 #endif //_HEAP_H

@@ -3,10 +3,10 @@
 #include <string>
 #include <ctime>
 
-#define CAPACITY 100
-#define NUM_NODES 10
+#define CAPACITY 20
+#define NUM_NODES 15
 #define NUM_CMDS 10000
-#define KEY_RANGE 10
+#define KEY_RANGE 20
 
 using namespace std;
 

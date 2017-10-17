@@ -181,16 +181,3 @@ unsigned int hashTable::getPrime(int size){
   }
   return -1;
 }
-
-int hashTable::printTable(){
-  vector<hashItem>::iterator itr;
-  int count=0;
-  for(itr = data.begin(); itr < data.end(); itr++){
-    if(itr->isOccupied == true && itr->isDeleted == false){ // leave out lazy deletions
-      cout<<itr->key<<", ";
-      count++;
-    }
-  }
-  cout<<endl;
-  return count;
-}
