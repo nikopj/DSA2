@@ -3,10 +3,10 @@
 #include <string>
 #include <ctime>
 
-#define CAPACITY 20
-#define NUM_NODES 15
-#define NUM_CMDS 10000
-#define KEY_RANGE 20
+#define CAPACITY 1000000
+#define NUM_NODES 100000
+#define NUM_CMDS 10000000
+#define KEY_RANGE 200000
 
 using namespace std;
 
@@ -27,7 +27,7 @@ void genCommands(const string &outputfile){
   ofstream output;
   output.open(outputfile);
   string cap = to_string(CAPACITY);
-  output<<cap<<"\n";
+  cout<<cap<<"";
 
   for(int i=0; i<NUM_CMDS; i++){
     int cmd = rand()%10+1;
@@ -37,30 +37,30 @@ void genCommands(const string &outputfile){
     string name;
 
     if(cmd>4){
-      output<<"1\n";
+      cout<<"1";
       n = rand()%NUM_NODES+1;
       key = rand()%KEY_RANGE+1;
 
       name = to_string(n);
-      output<<"string"<<name<<"\n";
-      output<<key<<endl;
+      cout<<"string"<<name<<"";
+      cout<<key;
     } else if(cmd==2){
-      output<<"2\n";
+      cout<<"2";
       n = rand()%NUM_NODES+1;
       key = rand()%KEY_RANGE+1;
 
       name = to_string(n);
-      output<<"string"<<name<<"\n";
-      output<<key<<endl;
+      cout<<"string"<<name<<"";
+      cout<<key;
     } else if(cmd==1){
-      output<<"3\n";
+      cout<<"3";
       n = rand()%NUM_NODES+1;
       name = to_string(n);
-      output<<"string"<<name<<endl;
+      cout<<"string"<<name;
     } else if(cmd==4||cmd==3){
-      output<<"4"<<endl;
+      cout<<"4";
     }
   }
-  output<<"5\n"<<endl;
+  cout<<"5"<<endl;
   output.close();
 }
