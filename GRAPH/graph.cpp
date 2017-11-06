@@ -53,10 +53,10 @@ int graph::pathLengthDijkstra(const string &s_id){
 
   list<node *>::const_iterator itr;
   for(itr = nodes->begin(); itr!=nodes->end(); itr++){
-    (*itr)->dv = 2147483647; // limit of signed int ie. infinity
+    (*itr)->dv = 1000000000; //infinity (given pathlength limit)
     (*itr)->isKnown = false;
     (*itr)->pv = NULL;
-    h.insert((*itr)->id, 2147483647, *itr);
+    h.insert((*itr)->id, 1000000000, *itr);
   }
   h.setKey(s_id, 0);
   node *s = static_cast<node *> (mapping->getPointer(s_id));
@@ -96,7 +96,7 @@ void graph::writePathLength(const string &outputfile){
     string path;
     output<<(*itr)->id<<": ";
 
-    if((*itr)->pv==NULL && (*itr)->dv==2147483647){
+    if((*itr)->dv==1000000000){
       output<<"NO PATH"<<endl;
 
     } else {
