@@ -32,6 +32,200 @@ Options:
 3 - Delete a specified item
 4 - Perform a deleteMin
 5 - Quit
+Choose an option: Enter an id string (to insert): Enter an associated integer key: 
+Call to 'insert' returned: 0
+
+Options:
+1 - Insert a new item into the binary heap
+2 - Set the key of a specified item
+3 - Delete a specified item
+4 - Perform a deleteMin
+5 - Quit
+Choose an option: Enter an id string (to insert): Enter an associated integer key: 
+Call to 'insert' returned: 2
+
+Options:
+1 - Insert a new item into the binary heap
+2 - Set the key of a specified item
+3 - Delete a specified item
+4 - Perform a deleteMin
+5 - Quit
+Choose an option: Enter an id string (to insert): Enter an associated integer key: 
+Call to 'insert' returned: 0
+
+Options:
+1 - Insert a new item into the binary heap
+2 - Set the key of a specified item
+3 - Delete a specified item
+4 - Perform a deleteMin
+5 - Quit
+Choose an option: Enter an id string (to insert): Enter an associated integer key: 
+Call to 'insert' returned: 0
+
+Options:
+1 - Insert a new item into the binary heap
+2 - Set the key of a specified item
+3 - Delete a specified item
+4 - Perform a deleteMin
+5 - Quit
+Choose an option: Enter an id string (to insert): Enter an associated integer key: 
+Call to 'insert' returned: 0
+
+Options:
+1 - Insert a new item into the binary heap
+2 - Set the key of a specified item
+3 - Delete a specified item
+4 - Perform a deleteMin
+5 - Quit
+Choose an option: 
+Call to 'deleteMin' returned: 0
+
+Deleted item with string id "string four" and key 5
+
+Options:
+1 - Insert a new item into the binary heap
+2 - Set the key of a specified item
+3 - Delete a specified item
+4 - Perform a deleteMin
+5 - Quit
+Choose an option: Enter an id string (to delete): 
+Call to 'delete' returned: 1
+
+Options:
+1 - Insert a new item into the binary heap
+2 - Set the key of a specified item
+3 - Delete a specified item
+4 - Perform a deleteMin
+5 - Quit
+Choose an option: 
+Call to 'deleteMin' returned: 0
+
+Deleted item with string id "string six" and key 20
+
+Options:
+1 - Insert a new item into the binary heap
+2 - Set the key of a specified item
+3 - Delete a specified item
+4 - Perform a deleteMin
+5 - Quit
+Choose an option: Enter an id string (to change its key): Enter an associated integer key: 
+Call to 'setKey' returned: 0
+
+Options:
+1 - Insert a new item into the binary heap
+2 - Set the key of a specified item
+3 - Delete a specified item
+4 - Perform a deleteMin
+5 - Quit
+Choose an option: Enter an id string (to delete): 
+Call to 'delete' returned: 0
+
+Deleted item with string id "string two" and key 55
+
+Options:
+1 - Insert a new item into the binary heap
+2 - Set the key of a specified item
+3 - Delete a specified item
+4 - Perform a deleteMin
+5 - Quit
+Choose an option: 
+Call to 'deleteMin' returned: 0
+
+Deleted item with string id "string three" and key 45
+
+Options:
+1 - Insert a new item into the binary heap
+2 - Set the key of a specified item
+3 - Delete a specified item
+4 - Perform a deleteMin
+5 - Quit
+Choose an option: 
+Call to 'deleteMin' returned: 0
+
+Deleted item with string id "string one" and key 50
+
+Options:
+1 - Insert a new item into the binary heap
+2 - Set the key of a specified item
+3 - Delete a specified item
+4 - Perform a deleteMin
+5 - Quit
+Choose an option: Enter an id string (to change its key): Enter an associated integer key: 
+Call to 'setKey' returned: 0
+
+Options:
+1 - Insert a new item into the binary heap
+2 - Set the key of a specified item
+3 - Delete a specified item
+4 - Perform a deleteMin
+5 - Quit
+Choose an option: 
+Call to 'deleteMin' returned: 0
+
+Deleted item with string id "string five" and key 60
+
+Options:
+1 - Insert a new item into the binary heap
+2 - Set the key of a specified item
+3 - Delete a specified item
+4 - Perform a deleteMin
+5 - Quit
+Choose an option: 
+Call to 'deleteMin' returned: 0
+
+Deleted item with string id "string seven" and key 70
+
+Options:
+1 - Insert a new item into the binary heap
+2 - Set the key of a specified item
+3 - Delete a specified item
+4 - Perform a deleteMin
+5 - Quit
+Choose an option: 
+Call to 'deleteMin' returned: 1
+
+Options:
+1 - Insert a new item into the binary heap
+2 - Set the key of a specified item
+3 - Delete a specified item
+4 - Perform a deleteMin
+5 - Quit
+Choose an option: 
+Goodbye!
+Choose a capacity for the binary heap: 
+Options:
+1 - Insert a new item into the binary heap
+2 - Set the key of a specified item
+3 - Delete a specified item
+4 - Perform a deleteMin
+5 - Quit
+Choose an option: Enter an id string (to insert): Enter an associated integer key: 
+Call to 'insert' returned: 0
+
+Options:
+1 - Insert a new item into the binary heap
+2 - Set the key of a specified item
+3 - Delete a specified item
+4 - Perform a deleteMin
+5 - Quit
+Choose an option: Enter an id string (to insert): Enter an associated integer key: 
+Call to 'insert' returned: 0
+
+Options:
+1 - Insert a new item into the binary heap
+2 - Set the key of a specified item
+3 - Delete a specified item
+4 - Perform a deleteMin
+5 - Quit
+Choose an option: Enter an id string (to insert): Enter an associated integer key: 
+Call to 'insert' returned: 0
+
+Options:
+1 - Insert a new item into the binary heap
+2 - Set the key of a specified item
+3 - Delete a specified item
+4 - Perform a deleteMin
+5 - Quit
 Choose an option: Enter an id string (to delete): 
 Call to 'delete' returned: 1
 
@@ -4120,7 +4314,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string14" and key 9
+Deleted item with string id "string9" and key 9
 
 Options:
 1 - Insert a new item into the binary heap
@@ -4142,7 +4336,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string9" and key 9
+Deleted item with string id "string14" and key 9
 
 Options:
 1 - Insert a new item into the binary heap
@@ -12119,7 +12313,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string3" and key 16
+Deleted item with string id "string10" and key 16
 
 Options:
 1 - Insert a new item into the binary heap
@@ -12186,7 +12380,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string10" and key 16
+Deleted item with string id "string3" and key 16
 
 Options:
 1 - Insert a new item into the binary heap
@@ -12445,7 +12639,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string14" and key 17
+Deleted item with string id "string9" and key 17
 
 Options:
 1 - Insert a new item into the binary heap
@@ -12510,9 +12704,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to delete): 
-Call to 'delete' returned: 0
-
-Deleted item with string id "string9" and key 17
+Call to 'delete' returned: 1
 
 Options:
 1 - Insert a new item into the binary heap
@@ -12633,18 +12825,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 0
-
-Options:
-1 - Insert a new item into the binary heap
-2 - Set the key of a specified item
-3 - Delete a specified item
-4 - Perform a deleteMin
-5 - Quit
-Choose an option: 
-Call to 'deleteMin' returned: 0
-
-Deleted item with string id "string14" and key 4
+Call to 'insert' returned: 2
 
 Options:
 1 - Insert a new item into the binary heap
@@ -12656,6 +12837,17 @@ Choose an option:
 Call to 'deleteMin' returned: 0
 
 Deleted item with string id "string1" and key 5
+
+Options:
+1 - Insert a new item into the binary heap
+2 - Set the key of a specified item
+3 - Delete a specified item
+4 - Perform a deleteMin
+5 - Quit
+Choose an option: 
+Call to 'deleteMin' returned: 0
+
+Deleted item with string id "string13" and key 9
 
 Options:
 1 - Insert a new item into the binary heap
@@ -12713,7 +12905,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string13" and key 9
+Deleted item with string id "string7" and key 13
 
 Options:
 1 - Insert a new item into the binary heap
@@ -12724,7 +12916,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string7" and key 13
+Deleted item with string id "string4" and key 14
 
 Options:
 1 - Insert a new item into the binary heap
@@ -12780,7 +12972,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string4" and key 14
+Deleted item with string id "string14" and key 17
 
 Options:
 1 - Insert a new item into the binary heap
@@ -12844,26 +13036,6 @@ Options:
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
 Call to 'insert' returned: 2
-
-Options:
-1 - Insert a new item into the binary heap
-2 - Set the key of a specified item
-3 - Delete a specified item
-4 - Perform a deleteMin
-5 - Quit
-Choose an option: 
-Call to 'deleteMin' returned: 0
-
-Deleted item with string id "string6" and key 17
-
-Options:
-1 - Insert a new item into the binary heap
-2 - Set the key of a specified item
-3 - Delete a specified item
-4 - Perform a deleteMin
-5 - Quit
-Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 0
 
 Options:
 1 - Insert a new item into the binary heap
@@ -12883,7 +13055,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 2
+Call to 'insert' returned: 0
 
 Options:
 1 - Insert a new item into the binary heap
@@ -12911,6 +13083,26 @@ Options:
 3 - Delete a specified item
 4 - Perform a deleteMin
 5 - Quit
+Choose an option: 
+Call to 'deleteMin' returned: 0
+
+Deleted item with string id "string4" and key 17
+
+Options:
+1 - Insert a new item into the binary heap
+2 - Set the key of a specified item
+3 - Delete a specified item
+4 - Perform a deleteMin
+5 - Quit
+Choose an option: Enter an id string (to insert): Enter an associated integer key: 
+Call to 'insert' returned: 2
+
+Options:
+1 - Insert a new item into the binary heap
+2 - Set the key of a specified item
+3 - Delete a specified item
+4 - Perform a deleteMin
+5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
 Call to 'insert' returned: 2
 
@@ -12932,7 +13124,36 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string4" and key 17
+Deleted item with string id "string6" and key 17
+
+Options:
+1 - Insert a new item into the binary heap
+2 - Set the key of a specified item
+3 - Delete a specified item
+4 - Perform a deleteMin
+5 - Quit
+Choose an option: 
+Call to 'deleteMin' returned: 0
+
+Deleted item with string id "string12" and key 18
+
+Options:
+1 - Insert a new item into the binary heap
+2 - Set the key of a specified item
+3 - Delete a specified item
+4 - Perform a deleteMin
+5 - Quit
+Choose an option: Enter an id string (to delete): 
+Call to 'delete' returned: 1
+
+Options:
+1 - Insert a new item into the binary heap
+2 - Set the key of a specified item
+3 - Delete a specified item
+4 - Perform a deleteMin
+5 - Quit
+Choose an option: Enter an id string (to insert): Enter an associated integer key: 
+Call to 'insert' returned: 2
 
 Options:
 1 - Insert a new item into the binary heap
@@ -12951,37 +13172,8 @@ Options:
 3 - Delete a specified item
 4 - Perform a deleteMin
 5 - Quit
-Choose an option: Enter an id string (to delete): 
-Call to 'delete' returned: 1
-
-Options:
-1 - Insert a new item into the binary heap
-2 - Set the key of a specified item
-3 - Delete a specified item
-4 - Perform a deleteMin
-5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 2
-
-Options:
-1 - Insert a new item into the binary heap
-2 - Set the key of a specified item
-3 - Delete a specified item
-4 - Perform a deleteMin
-5 - Quit
-Choose an option: 
-Call to 'deleteMin' returned: 0
-
-Deleted item with string id "string8" and key 18
-
-Options:
-1 - Insert a new item into the binary heap
-2 - Set the key of a specified item
-3 - Delete a specified item
-4 - Perform a deleteMin
-5 - Quit
-Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 2
+Call to 'insert' returned: 0
 
 Options:
 1 - Insert a new item into the binary heap
@@ -13019,7 +13211,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string6" and key 18
+Deleted item with string id "string12" and key 5
 
 Options:
 1 - Insert a new item into the binary heap
@@ -13037,7 +13229,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 0
+Call to 'insert' returned: 2
 
 Options:
 1 - Insert a new item into the binary heap
@@ -13095,7 +13287,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string6" and key 11
+Deleted item with string id "string6" and key 18
 
 Options:
 1 - Insert a new item into the binary heap
@@ -13135,7 +13327,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 2
+Call to 'insert' returned: 0
 
 Options:
 1 - Insert a new item into the binary heap
@@ -13155,7 +13347,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string12" and key 18
+Deleted item with string id "string12" and key 7
 
 Options:
 1 - Insert a new item into the binary heap
@@ -13374,7 +13566,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 0
+Call to 'insert' returned: 2
 
 Options:
 1 - Insert a new item into the binary heap
@@ -13488,7 +13680,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string8" and key 7
+Deleted item with string id "string15" and key 8
 
 Options:
 1 - Insert a new item into the binary heap
@@ -13524,7 +13716,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to change its key): Enter an associated integer key: 
-Call to 'setKey' returned: 0
+Call to 'setKey' returned: 1
 
 Options:
 1 - Insert a new item into the binary heap
@@ -13542,27 +13734,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 2
-
-Options:
-1 - Insert a new item into the binary heap
-2 - Set the key of a specified item
-3 - Delete a specified item
-4 - Perform a deleteMin
-5 - Quit
-Choose an option: 
-Call to 'deleteMin' returned: 0
-
-Deleted item with string id "string15" and key 7
-
-Options:
-1 - Insert a new item into the binary heap
-2 - Set the key of a specified item
-3 - Delete a specified item
-4 - Perform a deleteMin
-5 - Quit
-Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 2
+Call to 'insert' returned: 0
 
 Options:
 1 - Insert a new item into the binary heap
@@ -13590,8 +13762,28 @@ Options:
 3 - Delete a specified item
 4 - Perform a deleteMin
 5 - Quit
+Choose an option: 
+Call to 'deleteMin' returned: 0
+
+Deleted item with string id "string15" and key 8
+
+Options:
+1 - Insert a new item into the binary heap
+2 - Set the key of a specified item
+3 - Delete a specified item
+4 - Perform a deleteMin
+5 - Quit
+Choose an option: Enter an id string (to insert): Enter an associated integer key: 
+Call to 'insert' returned: 2
+
+Options:
+1 - Insert a new item into the binary heap
+2 - Set the key of a specified item
+3 - Delete a specified item
+4 - Perform a deleteMin
+5 - Quit
 Choose an option: Enter an id string (to change its key): Enter an associated integer key: 
-Call to 'setKey' returned: 1
+Call to 'setKey' returned: 0
 
 Options:
 1 - Insert a new item into the binary heap
@@ -13647,7 +13839,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 0
+Call to 'insert' returned: 2
 
 Options:
 1 - Insert a new item into the binary heap
@@ -13712,7 +13904,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string9" and key 9
+Deleted item with string id "string8" and key 9
 
 Options:
 1 - Insert a new item into the binary heap
@@ -13721,9 +13913,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to delete): 
-Call to 'delete' returned: 0
-
-Deleted item with string id "string8" and key 11
+Call to 'delete' returned: 1
 
 Options:
 1 - Insert a new item into the binary heap
@@ -13743,7 +13933,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string3" and key 11
+Deleted item with string id "string9" and key 9
 
 Options:
 1 - Insert a new item into the binary heap
@@ -13774,7 +13964,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string6" and key 15
+Deleted item with string id "string3" and key 11
 
 Options:
 1 - Insert a new item into the binary heap
@@ -13785,7 +13975,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string13" and key 18
+Deleted item with string id "string6" and key 15
 
 Options:
 1 - Insert a new item into the binary heap
@@ -13834,7 +14024,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string5" and key 19
+Deleted item with string id "string13" and key 18
 
 Options:
 1 - Insert a new item into the binary heap
@@ -13982,7 +14172,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 0
+Call to 'insert' returned: 2
 
 Options:
 1 - Insert a new item into the binary heap
@@ -16264,7 +16454,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string5" and key 15
+Deleted item with string id "string9" and key 15
 
 Options:
 1 - Insert a new item into the binary heap
@@ -16273,7 +16463,9 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to delete): 
-Call to 'delete' returned: 1
+Call to 'delete' returned: 0
+
+Deleted item with string id "string5" and key 15
 
 Options:
 1 - Insert a new item into the binary heap
@@ -16284,7 +16476,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string9" and key 15
+Deleted item with string id "string2" and key 15
 
 Options:
 1 - Insert a new item into the binary heap
@@ -16401,7 +16593,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 2
+Call to 'insert' returned: 0
 
 Options:
 1 - Insert a new item into the binary heap
@@ -16533,7 +16725,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string5" and key 3
+Deleted item with string id "string3" and key 3
 
 Options:
 1 - Insert a new item into the binary heap
@@ -16551,7 +16743,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 2
+Call to 'insert' returned: 0
 
 Options:
 1 - Insert a new item into the binary heap
@@ -16580,7 +16772,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string3" and key 3
+Deleted item with string id "string5" and key 3
 
 Options:
 1 - Insert a new item into the binary heap
@@ -16627,7 +16819,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 0
+Call to 'insert' returned: 2
 
 Options:
 1 - Insert a new item into the binary heap
@@ -16658,7 +16850,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string9" and key 7
+Deleted item with string id "string3" and key 7
 
 Options:
 1 - Insert a new item into the binary heap
@@ -16667,7 +16859,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 2
+Call to 'insert' returned: 0
 
 Options:
 1 - Insert a new item into the binary heap
@@ -16687,7 +16879,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string1" and key 7
+Deleted item with string id "string9" and key 7
 
 Options:
 1 - Insert a new item into the binary heap
@@ -16893,7 +17085,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string6" and key 7
+Deleted item with string id "string1" and key 7
 
 Options:
 1 - Insert a new item into the binary heap
@@ -16920,7 +17112,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 0
+Call to 'insert' returned: 2
 
 Options:
 1 - Insert a new item into the binary heap
@@ -16940,7 +17132,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string6" and key 1
+Deleted item with string id "string6" and key 7
 
 Options:
 1 - Insert a new item into the binary heap
@@ -16998,7 +17190,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string10" and key 9
+Deleted item with string id "string2" and key 9
 
 Options:
 1 - Insert a new item into the binary heap
@@ -17061,7 +17253,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 0
+Call to 'insert' returned: 2
 
 Options:
 1 - Insert a new item into the binary heap
@@ -17126,9 +17318,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to delete): 
-Call to 'delete' returned: 0
-
-Deleted item with string id "string2" and key 9
+Call to 'delete' returned: 1
 
 Options:
 1 - Insert a new item into the binary heap
@@ -17202,7 +17392,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string10" and key 1
+Deleted item with string id "string10" and key 9
 
 Options:
 1 - Insert a new item into the binary heap
@@ -17741,7 +17931,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string3" and key 14
+Deleted item with string id "string7" and key 14
 
 Options:
 1 - Insert a new item into the binary heap
@@ -17770,7 +17960,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to change its key): Enter an associated integer key: 
-Call to 'setKey' returned: 1
+Call to 'setKey' returned: 0
 
 Options:
 1 - Insert a new item into the binary heap
@@ -17797,7 +17987,9 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to delete): 
-Call to 'delete' returned: 1
+Call to 'delete' returned: 0
+
+Deleted item with string id "string3" and key 7
 
 Options:
 1 - Insert a new item into the binary heap
@@ -17889,7 +18081,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 2
+Call to 'insert' returned: 0
 
 Options:
 1 - Insert a new item into the binary heap
@@ -18106,43 +18298,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string7" and key 14
-
-Options:
-1 - Insert a new item into the binary heap
-2 - Set the key of a specified item
-3 - Delete a specified item
-4 - Perform a deleteMin
-5 - Quit
-Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 0
-
-Options:
-1 - Insert a new item into the binary heap
-2 - Set the key of a specified item
-3 - Delete a specified item
-4 - Perform a deleteMin
-5 - Quit
-Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 0
-
-Options:
-1 - Insert a new item into the binary heap
-2 - Set the key of a specified item
-3 - Delete a specified item
-4 - Perform a deleteMin
-5 - Quit
-Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 2
-
-Options:
-1 - Insert a new item into the binary heap
-2 - Set the key of a specified item
-3 - Delete a specified item
-4 - Perform a deleteMin
-5 - Quit
-Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 2
+Deleted item with string id "string13" and key 15
 
 Options:
 1 - Insert a new item into the binary heap
@@ -18168,10 +18324,8 @@ Options:
 3 - Delete a specified item
 4 - Perform a deleteMin
 5 - Quit
-Choose an option: 
-Call to 'deleteMin' returned: 0
-
-Deleted item with string id "string7" and key 4
+Choose an option: Enter an id string (to insert): Enter an associated integer key: 
+Call to 'insert' returned: 2
 
 Options:
 1 - Insert a new item into the binary heap
@@ -18181,6 +18335,24 @@ Options:
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
 Call to 'insert' returned: 2
+
+Options:
+1 - Insert a new item into the binary heap
+2 - Set the key of a specified item
+3 - Delete a specified item
+4 - Perform a deleteMin
+5 - Quit
+Choose an option: Enter an id string (to insert): Enter an associated integer key: 
+Call to 'insert' returned: 2
+
+Options:
+1 - Insert a new item into the binary heap
+2 - Set the key of a specified item
+3 - Delete a specified item
+4 - Perform a deleteMin
+5 - Quit
+Choose an option: Enter an id string (to insert): Enter an associated integer key: 
+Call to 'insert' returned: 0
 
 Options:
 1 - Insert a new item into the binary heap
@@ -18192,6 +18364,26 @@ Choose an option:
 Call to 'deleteMin' returned: 0
 
 Deleted item with string id "string4" and key 7
+
+Options:
+1 - Insert a new item into the binary heap
+2 - Set the key of a specified item
+3 - Delete a specified item
+4 - Perform a deleteMin
+5 - Quit
+Choose an option: Enter an id string (to insert): Enter an associated integer key: 
+Call to 'insert' returned: 2
+
+Options:
+1 - Insert a new item into the binary heap
+2 - Set the key of a specified item
+3 - Delete a specified item
+4 - Perform a deleteMin
+5 - Quit
+Choose an option: 
+Call to 'deleteMin' returned: 0
+
+Deleted item with string id "string12" and key 15
 
 Options:
 1 - Insert a new item into the binary heap
@@ -18220,7 +18412,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 0
+Call to 'insert' returned: 2
 
 Options:
 1 - Insert a new item into the binary heap
@@ -18231,16 +18423,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string7" and key 5
-
-Options:
-1 - Insert a new item into the binary heap
-2 - Set the key of a specified item
-3 - Delete a specified item
-4 - Perform a deleteMin
-5 - Quit
-Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 2
+Deleted item with string id "string5" and key 16
 
 Options:
 1 - Insert a new item into the binary heap
@@ -18258,6 +18441,15 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
+Call to 'insert' returned: 0
+
+Options:
+1 - Insert a new item into the binary heap
+2 - Set the key of a specified item
+3 - Delete a specified item
+4 - Perform a deleteMin
+5 - Quit
+Choose an option: Enter an id string (to insert): Enter an associated integer key: 
 Call to 'insert' returned: 2
 
 Options:
@@ -18269,7 +18461,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string13" and key 15
+Deleted item with string id "string12" and key 11
 
 Options:
 1 - Insert a new item into the binary heap
@@ -18307,7 +18499,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string12" and key 15
+Deleted item with string id "string7" and key 17
 
 Options:
 1 - Insert a new item into the binary heap
@@ -18327,7 +18519,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string5" and key 16
+Deleted item with string id "string15" and key 18
 
 Options:
 1 - Insert a new item into the binary heap
@@ -18427,7 +18619,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string15" and key 18
+Deleted item with string id "string6" and key 19
 
 Options:
 1 - Insert a new item into the binary heap
@@ -18530,7 +18722,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 2
+Call to 'insert' returned: 0
 
 Options:
 1 - Insert a new item into the binary heap
@@ -23288,7 +23480,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string15" and key 18
+Deleted item with string id "string7" and key 18
 
 Options:
 1 - Insert a new item into the binary heap
@@ -23299,7 +23491,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string7" and key 18
+Deleted item with string id "string15" and key 18
 
 Options:
 1 - Insert a new item into the binary heap
@@ -25443,7 +25635,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string14" and key 15
+Deleted item with string id "string6" and key 15
 
 Options:
 1 - Insert a new item into the binary heap
@@ -25528,7 +25720,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 2
+Call to 'insert' returned: 0
 
 Options:
 1 - Insert a new item into the binary heap
@@ -25676,7 +25868,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 0
+Call to 'insert' returned: 2
 
 Options:
 1 - Insert a new item into the binary heap
@@ -25826,6 +26018,17 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
+Deleted item with string id "string14" and key 15
+
+Options:
+1 - Insert a new item into the binary heap
+2 - Set the key of a specified item
+3 - Delete a specified item
+4 - Perform a deleteMin
+5 - Quit
+Choose an option: 
+Call to 'deleteMin' returned: 0
+
 Deleted item with string id "string4" and key 15
 
 Options:
@@ -25834,17 +26037,6 @@ Options:
 3 - Delete a specified item
 4 - Perform a deleteMin
 5 - Quit
-Choose an option: 
-Call to 'deleteMin' returned: 0
-
-Deleted item with string id "string7" and key 15
-
-Options:
-1 - Insert a new item into the binary heap
-2 - Set the key of a specified item
-3 - Delete a specified item
-4 - Perform a deleteMin
-5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
 Call to 'insert' returned: 2
 
@@ -25864,7 +26056,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 0
+Call to 'insert' returned: 2
 
 Options:
 1 - Insert a new item into the binary heap
@@ -25884,7 +26076,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string7" and key 11
+Deleted item with string id "string13" and key 15
 
 Options:
 1 - Insert a new item into the binary heap
@@ -25902,7 +26094,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 2
+Call to 'insert' returned: 0
 
 Options:
 1 - Insert a new item into the binary heap
@@ -25922,7 +26114,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string6" and key 15
+Deleted item with string id "string13" and key 2
 
 Options:
 1 - Insert a new item into the binary heap
@@ -25949,7 +26141,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 2
+Call to 'insert' returned: 0
 
 Options:
 1 - Insert a new item into the binary heap
@@ -25958,7 +26150,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 0
+Call to 'insert' returned: 2
 
 Options:
 1 - Insert a new item into the binary heap
@@ -25978,7 +26170,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 2
+Call to 'insert' returned: 0
 
 Options:
 1 - Insert a new item into the binary heap
@@ -26072,17 +26264,6 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string6" and key 6
-
-Options:
-1 - Insert a new item into the binary heap
-2 - Set the key of a specified item
-3 - Delete a specified item
-4 - Perform a deleteMin
-5 - Quit
-Choose an option: 
-Call to 'deleteMin' returned: 0
-
 Deleted item with string id "string4" and key 6
 
 Options:
@@ -26095,6 +26276,17 @@ Choose an option:
 Call to 'deleteMin' returned: 0
 
 Deleted item with string id "string10" and key 7
+
+Options:
+1 - Insert a new item into the binary heap
+2 - Set the key of a specified item
+3 - Delete a specified item
+4 - Perform a deleteMin
+5 - Quit
+Choose an option: 
+Call to 'deleteMin' returned: 0
+
+Deleted item with string id "string14" and key 10
 
 Options:
 1 - Insert a new item into the binary heap
@@ -26141,7 +26333,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 0
+Call to 'insert' returned: 2
 
 Options:
 1 - Insert a new item into the binary heap
@@ -26150,7 +26342,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 0
+Call to 'insert' returned: 2
 
 Options:
 1 - Insert a new item into the binary heap
@@ -26161,7 +26353,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string6" and key 9
+Deleted item with string id "string7" and key 15
 
 Options:
 1 - Insert a new item into the binary heap
@@ -26208,7 +26400,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 2
+Call to 'insert' returned: 0
 
 Options:
 1 - Insert a new item into the binary heap
@@ -26268,7 +26460,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 0
+Call to 'insert' returned: 2
 
 Options:
 1 - Insert a new item into the binary heap
@@ -26398,7 +26590,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string10" and key 10
+Deleted item with string id "string14" and key 6
 
 Options:
 1 - Insert a new item into the binary heap
@@ -26409,7 +26601,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string4" and key 10
+Deleted item with string id "string10" and key 10
 
 Options:
 1 - Insert a new item into the binary heap
@@ -26554,7 +26746,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string1" and key 10
+Deleted item with string id "string4" and key 10
 
 Options:
 1 - Insert a new item into the binary heap
@@ -26565,7 +26757,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string6" and key 11
+Deleted item with string id "string1" and key 10
 
 Options:
 1 - Insert a new item into the binary heap
@@ -26583,7 +26775,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 2
+Call to 'insert' returned: 0
 
 Options:
 1 - Insert a new item into the binary heap
@@ -26601,7 +26793,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 2
+Call to 'insert' returned: 0
 
 Options:
 1 - Insert a new item into the binary heap
@@ -26639,7 +26831,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string7" and key 12
+Deleted item with string id "string8" and key 12
 
 Options:
 1 - Insert a new item into the binary heap
@@ -26657,9 +26849,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to delete): 
-Call to 'delete' returned: 0
-
-Deleted item with string id "string8" and key 12
+Call to 'delete' returned: 1
 
 Options:
 1 - Insert a new item into the binary heap
@@ -26681,7 +26871,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string14" and key 15
+Deleted item with string id "string14" and key 12
 
 Options:
 1 - Insert a new item into the binary heap
@@ -26690,7 +26880,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 0
+Call to 'insert' returned: 2
 
 Options:
 1 - Insert a new item into the binary heap
@@ -26701,7 +26891,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string13" and key 15
+Deleted item with string id "string7" and key 15
 
 Options:
 1 - Insert a new item into the binary heap
@@ -26858,7 +27048,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 0
+Call to 'insert' returned: 2
 
 Options:
 1 - Insert a new item into the binary heap
@@ -26936,7 +27126,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string3" and key 17
+Deleted item with string id "string13" and key 16
 
 Options:
 1 - Insert a new item into the binary heap
@@ -26954,7 +27144,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to change its key): Enter an associated integer key: 
-Call to 'setKey' returned: 1
+Call to 'setKey' returned: 0
 
 Options:
 1 - Insert a new item into the binary heap
@@ -26974,7 +27164,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 0
+Call to 'insert' returned: 2
 
 Options:
 1 - Insert a new item into the binary heap
@@ -27050,18 +27240,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string3" and key 3
-
-Options:
-1 - Insert a new item into the binary heap
-2 - Set the key of a specified item
-3 - Delete a specified item
-4 - Perform a deleteMin
-5 - Quit
-Choose an option: 
-Call to 'deleteMin' returned: 0
-
-Deleted item with string id "string9" and key 18
+Deleted item with string id "string3" and key 12
 
 Options:
 1 - Insert a new item into the binary heap
@@ -27073,6 +27252,17 @@ Choose an option:
 Call to 'deleteMin' returned: 0
 
 Deleted item with string id "string8" and key 18
+
+Options:
+1 - Insert a new item into the binary heap
+2 - Set the key of a specified item
+3 - Delete a specified item
+4 - Perform a deleteMin
+5 - Quit
+Choose an option: 
+Call to 'deleteMin' returned: 0
+
+Deleted item with string id "string9" and key 18
 
 Options:
 1 - Insert a new item into the binary heap
@@ -27152,7 +27342,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string6" and key 18
+Deleted item with string id "string7" and key 19
 
 Options:
 1 - Insert a new item into the binary heap
@@ -27188,7 +27378,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 2
+Call to 'insert' returned: 0
 
 Options:
 1 - Insert a new item into the binary heap
@@ -27242,7 +27432,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 0
+Call to 'insert' returned: 2
 
 Options:
 1 - Insert a new item into the binary heap
@@ -27271,7 +27461,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string4" and key 4
+Deleted item with string id "string13" and key 3
 
 Options:
 1 - Insert a new item into the binary heap
@@ -27280,7 +27470,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 2
+Call to 'insert' returned: 0
 
 Options:
 1 - Insert a new item into the binary heap
@@ -27345,9 +27535,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to delete): 
-Call to 'delete' returned: 0
-
-Deleted item with string id "string13" and key 19
+Call to 'delete' returned: 1
 
 Options:
 1 - Insert a new item into the binary heap
@@ -27367,7 +27555,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string7" and key 6
+Deleted item with string id "string4" and key 4
 
 Options:
 1 - Insert a new item into the binary heap
@@ -27378,7 +27566,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string1" and key 9
+Deleted item with string id "string7" and key 6
 
 Options:
 1 - Insert a new item into the binary heap
@@ -27512,7 +27700,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 0
+Call to 'insert' returned: 2
 
 Options:
 1 - Insert a new item into the binary heap
@@ -27628,7 +27816,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string6" and key 9
+Deleted item with string id "string1" and key 9
 
 Options:
 1 - Insert a new item into the binary heap
@@ -27722,7 +27910,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 0
+Call to 'insert' returned: 2
 
 Options:
 1 - Insert a new item into the binary heap
@@ -27776,7 +27964,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 2
+Call to 'insert' returned: 0
 
 Options:
 1 - Insert a new item into the binary heap
@@ -28517,7 +28705,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string10" and key 14
+Deleted item with string id "string1" and key 14
 
 Options:
 1 - Insert a new item into the binary heap
@@ -28613,7 +28801,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 2
+Call to 'insert' returned: 0
 
 Options:
 1 - Insert a new item into the binary heap
@@ -28736,7 +28924,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string1" and key 14
+Deleted item with string id "string10" and key 14
 
 Options:
 1 - Insert a new item into the binary heap
@@ -29094,7 +29282,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 0
+Call to 'insert' returned: 2
 
 Options:
 1 - Insert a new item into the binary heap
@@ -29134,7 +29322,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string1" and key 5
+Deleted item with string id "string7" and key 6
 
 Options:
 1 - Insert a new item into the binary heap
@@ -29192,7 +29380,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string7" and key 6
+Deleted item with string id "string15" and key 11
 
 Options:
 1 - Insert a new item into the binary heap
@@ -29246,9 +29434,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to delete): 
-Call to 'delete' returned: 0
-
-Deleted item with string id "string15" and key 11
+Call to 'delete' returned: 1
 
 Options:
 1 - Insert a new item into the binary heap
@@ -29387,7 +29573,9 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to delete): 
-Call to 'delete' returned: 1
+Call to 'delete' returned: 0
+
+Deleted item with string id "string1" and key 15
 
 Options:
 1 - Insert a new item into the binary heap
@@ -30008,7 +30196,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string6" and key 16
+Deleted item with string id "string2" and key 16
 
 Options:
 1 - Insert a new item into the binary heap
@@ -30019,7 +30207,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string2" and key 16
+Deleted item with string id "string6" and key 16
 
 Options:
 1 - Insert a new item into the binary heap
@@ -31589,7 +31777,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string4" and key 20
+Deleted item with string id "string9" and key 19
 
 Options:
 1 - Insert a new item into the binary heap
@@ -31676,7 +31864,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 2
+Call to 'insert' returned: 0
 
 Options:
 1 - Insert a new item into the binary heap
@@ -31739,7 +31927,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 0
+Call to 'insert' returned: 2
 
 Options:
 1 - Insert a new item into the binary heap
@@ -31786,7 +31974,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string4" and key 2
+Deleted item with string id "string5" and key 7
 
 Options:
 1 - Insert a new item into the binary heap
@@ -31797,7 +31985,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string5" and key 7
+Deleted item with string id "string8" and key 8
 
 Options:
 1 - Insert a new item into the binary heap
@@ -31817,7 +32005,7 @@ Options:
 Choose an option: Enter an id string (to delete): 
 Call to 'delete' returned: 0
 
-Deleted item with string id "string9" and key 19
+Deleted item with string id "string9" and key 13
 
 Options:
 1 - Insert a new item into the binary heap
@@ -31828,7 +32016,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string8" and key 8
+Deleted item with string id "string13" and key 12
 
 Options:
 1 - Insert a new item into the binary heap
@@ -31857,7 +32045,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string13" and key 12
+Deleted item with string id "string3" and key 16
 
 Options:
 1 - Insert a new item into the binary heap
@@ -31996,7 +32184,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 2
+Call to 'insert' returned: 0
 
 Options:
 1 - Insert a new item into the binary heap
@@ -32216,7 +32404,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 0
+Call to 'insert' returned: 2
 
 Options:
 1 - Insert a new item into the binary heap
@@ -38257,6 +38445,35 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
+Deleted item with string id "string10" and key 5
+
+Options:
+1 - Insert a new item into the binary heap
+2 - Set the key of a specified item
+3 - Delete a specified item
+4 - Perform a deleteMin
+5 - Quit
+Choose an option: Enter an id string (to insert): Enter an associated integer key: 
+Call to 'insert' returned: 2
+
+Options:
+1 - Insert a new item into the binary heap
+2 - Set the key of a specified item
+3 - Delete a specified item
+4 - Perform a deleteMin
+5 - Quit
+Choose an option: Enter an id string (to delete): 
+Call to 'delete' returned: 1
+
+Options:
+1 - Insert a new item into the binary heap
+2 - Set the key of a specified item
+3 - Delete a specified item
+4 - Perform a deleteMin
+5 - Quit
+Choose an option: Enter an id string (to delete): 
+Call to 'delete' returned: 0
+
 Deleted item with string id "string12" and key 5
 
 Options:
@@ -38266,34 +38483,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 2
-
-Options:
-1 - Insert a new item into the binary heap
-2 - Set the key of a specified item
-3 - Delete a specified item
-4 - Perform a deleteMin
-5 - Quit
-Choose an option: Enter an id string (to delete): 
-Call to 'delete' returned: 1
-
-Options:
-1 - Insert a new item into the binary heap
-2 - Set the key of a specified item
-3 - Delete a specified item
-4 - Perform a deleteMin
-5 - Quit
-Choose an option: Enter an id string (to delete): 
-Call to 'delete' returned: 1
-
-Options:
-1 - Insert a new item into the binary heap
-2 - Set the key of a specified item
-3 - Delete a specified item
-4 - Perform a deleteMin
-5 - Quit
-Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 2
+Call to 'insert' returned: 0
 
 Options:
 1 - Insert a new item into the binary heap
@@ -38351,7 +38541,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string10" and key 5
+Deleted item with string id "string9" and key 5
 
 Options:
 1 - Insert a new item into the binary heap
@@ -38369,7 +38559,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 0
+Call to 'insert' returned: 2
 
 Options:
 1 - Insert a new item into the binary heap
@@ -38380,7 +38570,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string10" and key 3
+Deleted item with string id "string13" and key 8
 
 Options:
 1 - Insert a new item into the binary heap
@@ -38398,7 +38588,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 2
+Call to 'insert' returned: 0
 
 Options:
 1 - Insert a new item into the binary heap
@@ -38418,7 +38608,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string9" and key 5
+Deleted item with string id "string13" and key 13
 
 Options:
 1 - Insert a new item into the binary heap
@@ -38463,27 +38653,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to change its key): Enter an associated integer key: 
-Call to 'setKey' returned: 0
-
-Options:
-1 - Insert a new item into the binary heap
-2 - Set the key of a specified item
-3 - Delete a specified item
-4 - Perform a deleteMin
-5 - Quit
-Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 0
-
-Options:
-1 - Insert a new item into the binary heap
-2 - Set the key of a specified item
-3 - Delete a specified item
-4 - Perform a deleteMin
-5 - Quit
-Choose an option: 
-Call to 'deleteMin' returned: 0
-
-Deleted item with string id "string10" and key 6
+Call to 'setKey' returned: 1
 
 Options:
 1 - Insert a new item into the binary heap
@@ -38493,24 +38663,6 @@ Options:
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
 Call to 'insert' returned: 2
-
-Options:
-1 - Insert a new item into the binary heap
-2 - Set the key of a specified item
-3 - Delete a specified item
-4 - Perform a deleteMin
-5 - Quit
-Choose an option: Enter an id string (to change its key): Enter an associated integer key: 
-Call to 'setKey' returned: 0
-
-Options:
-1 - Insert a new item into the binary heap
-2 - Set the key of a specified item
-3 - Delete a specified item
-4 - Perform a deleteMin
-5 - Quit
-Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 0
 
 Options:
 1 - Insert a new item into the binary heap
@@ -38538,8 +38690,17 @@ Options:
 3 - Delete a specified item
 4 - Perform a deleteMin
 5 - Quit
+Choose an option: Enter an id string (to change its key): Enter an associated integer key: 
+Call to 'setKey' returned: 0
+
+Options:
+1 - Insert a new item into the binary heap
+2 - Set the key of a specified item
+3 - Delete a specified item
+4 - Perform a deleteMin
+5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 2
+Call to 'insert' returned: 0
 
 Options:
 1 - Insert a new item into the binary heap
@@ -38567,6 +38728,35 @@ Options:
 3 - Delete a specified item
 4 - Perform a deleteMin
 5 - Quit
+Choose an option: Enter an id string (to insert): Enter an associated integer key: 
+Call to 'insert' returned: 2
+
+Options:
+1 - Insert a new item into the binary heap
+2 - Set the key of a specified item
+3 - Delete a specified item
+4 - Perform a deleteMin
+5 - Quit
+Choose an option: 
+Call to 'deleteMin' returned: 0
+
+Deleted item with string id "string5" and key 15
+
+Options:
+1 - Insert a new item into the binary heap
+2 - Set the key of a specified item
+3 - Delete a specified item
+4 - Perform a deleteMin
+5 - Quit
+Choose an option: Enter an id string (to insert): Enter an associated integer key: 
+Call to 'insert' returned: 2
+
+Options:
+1 - Insert a new item into the binary heap
+2 - Set the key of a specified item
+3 - Delete a specified item
+4 - Perform a deleteMin
+5 - Quit
 Choose an option: Enter an id string (to change its key): Enter an associated integer key: 
 Call to 'setKey' returned: 0
 
@@ -38577,7 +38767,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 2
+Call to 'insert' returned: 0
 
 Options:
 1 - Insert a new item into the binary heap
@@ -38597,7 +38787,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string3" and key 15
+Deleted item with string id "string12" and key 15
 
 Options:
 1 - Insert a new item into the binary heap
@@ -38648,7 +38838,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string12" and key 15
+Deleted item with string id "string3" and key 15
 
 Options:
 1 - Insert a new item into the binary heap
@@ -38762,7 +38952,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 2
+Call to 'insert' returned: 0
 
 Options:
 1 - Insert a new item into the binary heap
@@ -38809,7 +38999,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 0
+Call to 'insert' returned: 2
 
 Options:
 1 - Insert a new item into the binary heap
@@ -38887,7 +39077,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string10" and key 10
+Deleted item with string id "string3" and key 14
 
 Options:
 1 - Insert a new item into the binary heap
@@ -38916,7 +39106,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string3" and key 14
+Deleted item with string id "string7" and key 16
 
 Options:
 1 - Insert a new item into the binary heap
@@ -38936,7 +39126,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string5" and key 15
+Deleted item with string id "string5" and key 16
 
 Options:
 1 - Insert a new item into the binary heap
@@ -39117,7 +39307,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string7" and key 16
+Deleted item with string id "string11" and key 16
 
 Options:
 1 - Insert a new item into the binary heap
@@ -39137,7 +39327,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string11" and key 16
+Deleted item with string id "string4" and key 17
 
 Options:
 1 - Insert a new item into the binary heap
@@ -39184,7 +39374,7 @@ Options:
 Choose an option: Enter an id string (to delete): 
 Call to 'delete' returned: 0
 
-Deleted item with string id "string13" and key 20
+Deleted item with string id "string13" and key 19
 
 Options:
 1 - Insert a new item into the binary heap
@@ -39474,7 +39664,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string4" and key 17
+Deleted item with string id "string9" and key 17
 
 Options:
 1 - Insert a new item into the binary heap
@@ -39492,7 +39682,9 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to delete): 
-Call to 'delete' returned: 1
+Call to 'delete' returned: 0
+
+Deleted item with string id "string10" and key 17
 
 Options:
 1 - Insert a new item into the binary heap
@@ -39514,7 +39706,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string9" and key 17
+Deleted item with string id "string2" and key 19
 
 Options:
 1 - Insert a new item into the binary heap
@@ -39561,7 +39753,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string2" and key 19
+Deleted item with string id "string15" and key 20
 
 Options:
 1 - Insert a new item into the binary heap
@@ -39800,7 +39992,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 2
+Call to 'insert' returned: 0
 
 Options:
 1 - Insert a new item into the binary heap
@@ -39838,7 +40030,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string3" and key 11
+Deleted item with string id "string15" and key 7
 
 Options:
 1 - Insert a new item into the binary heap
@@ -39847,7 +40039,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 2
+Call to 'insert' returned: 0
 
 Options:
 1 - Insert a new item into the binary heap
@@ -39858,7 +40050,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string9" and key 11
+Deleted item with string id "string15" and key 6
 
 Options:
 1 - Insert a new item into the binary heap
@@ -39867,7 +40059,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to change its key): Enter an associated integer key: 
-Call to 'setKey' returned: 1
+Call to 'setKey' returned: 0
 
 Options:
 1 - Insert a new item into the binary heap
@@ -39952,7 +40144,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 0
+Call to 'insert' returned: 2
 
 Options:
 1 - Insert a new item into the binary heap
@@ -39997,7 +40189,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 0
+Call to 'insert' returned: 2
 
 Options:
 1 - Insert a new item into the binary heap
@@ -40008,7 +40200,7 @@ Options:
 Choose an option: Enter an id string (to delete): 
 Call to 'delete' returned: 0
 
-Deleted item with string id "string9" and key 4
+Deleted item with string id "string9" and key 13
 
 Options:
 1 - Insert a new item into the binary heap
@@ -40153,7 +40345,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to change its key): Enter an associated integer key: 
-Call to 'setKey' returned: 0
+Call to 'setKey' returned: 1
 
 Options:
 1 - Insert a new item into the binary heap
@@ -40213,7 +40405,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string3" and key 12
+Deleted item with string id "string3" and key 11
 
 Options:
 1 - Insert a new item into the binary heap
@@ -40604,7 +40796,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to change its key): Enter an associated integer key: 
-Call to 'setKey' returned: 0
+Call to 'setKey' returned: 1
 
 Options:
 1 - Insert a new item into the binary heap
@@ -40642,7 +40834,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string15" and key 5
+Deleted item with string id "string7" and key 10
 
 Options:
 1 - Insert a new item into the binary heap
@@ -40828,7 +41020,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 2
+Call to 'insert' returned: 0
 
 Options:
 1 - Insert a new item into the binary heap
@@ -40848,7 +41040,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string7" and key 10
+Deleted item with string id "string7" and key 2
 
 Options:
 1 - Insert a new item into the binary heap
@@ -42907,7 +43099,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string1" and key 18
+Deleted item with string id "string2" and key 18
 
 Options:
 1 - Insert a new item into the binary heap
@@ -42916,7 +43108,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 2
+Call to 'insert' returned: 0
 
 Options:
 1 - Insert a new item into the binary heap
@@ -42927,7 +43119,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string2" and key 18
+Deleted item with string id "string2" and key 15
 
 Options:
 1 - Insert a new item into the binary heap
@@ -42983,7 +43175,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string9" and key 19
+Deleted item with string id "string1" and key 18
 
 Options:
 1 - Insert a new item into the binary heap
@@ -43039,7 +43231,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 0
+Call to 'insert' returned: 2
 
 Options:
 1 - Insert a new item into the binary heap
@@ -43300,7 +43492,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string9" and key 16
+Deleted item with string id "string2" and key 17
 
 Options:
 1 - Insert a new item into the binary heap
@@ -43320,7 +43512,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string2" and key 17
+Deleted item with string id "string12" and key 18
 
 Options:
 1 - Insert a new item into the binary heap
@@ -43376,7 +43568,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 0
+Call to 'insert' returned: 2
 
 Options:
 1 - Insert a new item into the binary heap
@@ -43577,7 +43769,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 2
+Call to 'insert' returned: 0
 
 Options:
 1 - Insert a new item into the binary heap
@@ -43646,7 +43838,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string9" and key 17
+Deleted item with string id "string12" and key 16
 
 Options:
 1 - Insert a new item into the binary heap
@@ -43666,7 +43858,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string12" and key 18
+Deleted item with string id "string3" and key 18
 
 Options:
 1 - Insert a new item into the binary heap
@@ -43677,7 +43869,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string3" and key 18
+Deleted item with string id "string9" and key 19
 
 Options:
 1 - Insert a new item into the binary heap
@@ -45987,7 +46179,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string1" and key 16
+Deleted item with string id "string15" and key 16
 
 Options:
 1 - Insert a new item into the binary heap
@@ -46007,7 +46199,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string5" and key 16
+Deleted item with string id "string1" and key 16
 
 Options:
 1 - Insert a new item into the binary heap
@@ -46163,7 +46355,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 0
+Call to 'insert' returned: 2
 
 Options:
 1 - Insert a new item into the binary heap
@@ -46174,7 +46366,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string5" and key 10
+Deleted item with string id "string3" and key 16
 
 Options:
 1 - Insert a new item into the binary heap
@@ -46185,7 +46377,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string15" and key 16
+Deleted item with string id "string5" and key 16
 
 Options:
 1 - Insert a new item into the binary heap
@@ -46241,9 +46433,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to delete): 
-Call to 'delete' returned: 0
-
-Deleted item with string id "string3" and key 16
+Call to 'delete' returned: 1
 
 Options:
 1 - Insert a new item into the binary heap
@@ -49095,7 +49285,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string15" and key 14
+Deleted item with string id "string10" and key 14
 
 Options:
 1 - Insert a new item into the binary heap
@@ -49106,7 +49296,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string10" and key 14
+Deleted item with string id "string15" and key 14
 
 Options:
 1 - Insert a new item into the binary heap
@@ -50015,7 +50205,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string6" and key 13
+Deleted item with string id "string15" and key 12
 
 Options:
 1 - Insert a new item into the binary heap
@@ -50053,7 +50243,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 2
+Call to 'insert' returned: 0
 
 Options:
 1 - Insert a new item into the binary heap
@@ -50064,7 +50254,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string15" and key 12
+Deleted item with string id "string6" and key 13
 
 Options:
 1 - Insert a new item into the binary heap
@@ -50129,7 +50319,9 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to delete): 
-Call to 'delete' returned: 1
+Call to 'delete' returned: 0
+
+Deleted item with string id "string15" and key 14
 
 Options:
 1 - Insert a new item into the binary heap
@@ -51558,7 +51750,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string13" and key 10
+Deleted item with string id "string6" and key 10
 
 Options:
 1 - Insert a new item into the binary heap
@@ -51699,7 +51891,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 0
+Call to 'insert' returned: 2
 
 Options:
 1 - Insert a new item into the binary heap
@@ -51719,7 +51911,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string13" and key 1
+Deleted item with string id "string12" and key 4
 
 Options:
 1 - Insert a new item into the binary heap
@@ -51741,7 +51933,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string12" and key 4
+Deleted item with string id "string13" and key 10
 
 Options:
 1 - Insert a new item into the binary heap
@@ -51777,7 +51969,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 2
+Call to 'insert' returned: 0
 
 Options:
 1 - Insert a new item into the binary heap
@@ -51788,7 +51980,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string6" and key 10
+Deleted item with string id "string6" and key 1
 
 Options:
 1 - Insert a new item into the binary heap
@@ -53012,7 +53204,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string6" and key 17
+Deleted item with string id "string11" and key 16
 
 Options:
 1 - Insert a new item into the binary heap
@@ -53023,7 +53215,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string11" and key 16
+Deleted item with string id "string6" and key 17
 
 Options:
 1 - Insert a new item into the binary heap
@@ -54086,7 +54278,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string8" and key 17
+Deleted item with string id "string3" and key 17
 
 Options:
 1 - Insert a new item into the binary heap
@@ -54312,7 +54504,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 2
+Call to 'insert' returned: 0
 
 Options:
 1 - Insert a new item into the binary heap
@@ -54323,7 +54515,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string14" and key 10
+Deleted item with string id "string3" and key 8
 
 Options:
 1 - Insert a new item into the binary heap
@@ -54390,7 +54582,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 0
+Call to 'insert' returned: 2
 
 Options:
 1 - Insert a new item into the binary heap
@@ -54475,7 +54667,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 2
+Call to 'insert' returned: 0
 
 Options:
 1 - Insert a new item into the binary heap
@@ -54484,7 +54676,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 0
+Call to 'insert' returned: 2
 
 Options:
 1 - Insert a new item into the binary heap
@@ -54656,7 +54848,7 @@ Options:
 Choose an option: Enter an id string (to delete): 
 Call to 'delete' returned: 0
 
-Deleted item with string id "string8" and key 18
+Deleted item with string id "string8" and key 17
 
 Options:
 1 - Insert a new item into the binary heap
@@ -55572,7 +55764,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string15" and key 12
+Deleted item with string id "string12" and key 12
 
 Options:
 1 - Insert a new item into the binary heap
@@ -55583,7 +55775,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string12" and key 12
+Deleted item with string id "string15" and key 12
 
 Options:
 1 - Insert a new item into the binary heap
@@ -60427,7 +60619,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string7" and key 9
+Deleted item with string id "string14" and key 9
 
 Options:
 1 - Insert a new item into the binary heap
@@ -60449,7 +60641,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string14" and key 9
+Deleted item with string id "string7" and key 9
 
 Options:
 1 - Insert a new item into the binary heap
@@ -61573,7 +61765,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string11" and key 18
+Deleted item with string id "string10" and key 18
 
 Options:
 1 - Insert a new item into the binary heap
@@ -61609,7 +61801,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 0
+Call to 'insert' returned: 2
 
 Options:
 1 - Insert a new item into the binary heap
@@ -61721,7 +61913,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string11" and key 1
+Deleted item with string id "string2" and key 3
 
 Options:
 1 - Insert a new item into the binary heap
@@ -61732,7 +61924,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string2" and key 3
+Deleted item with string id "string7" and key 5
 
 Options:
 1 - Insert a new item into the binary heap
@@ -61741,7 +61933,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 2
+Call to 'insert' returned: 0
 
 Options:
 1 - Insert a new item into the binary heap
@@ -61768,45 +61960,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to change its key): Enter an associated integer key: 
-Call to 'setKey' returned: 1
-
-Options:
-1 - Insert a new item into the binary heap
-2 - Set the key of a specified item
-3 - Delete a specified item
-4 - Perform a deleteMin
-5 - Quit
-Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 2
-
-Options:
-1 - Insert a new item into the binary heap
-2 - Set the key of a specified item
-3 - Delete a specified item
-4 - Perform a deleteMin
-5 - Quit
-Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 2
-
-Options:
-1 - Insert a new item into the binary heap
-2 - Set the key of a specified item
-3 - Delete a specified item
-4 - Perform a deleteMin
-5 - Quit
-Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 2
-
-Options:
-1 - Insert a new item into the binary heap
-2 - Set the key of a specified item
-3 - Delete a specified item
-4 - Perform a deleteMin
-5 - Quit
-Choose an option: 
-Call to 'deleteMin' returned: 0
-
-Deleted item with string id "string7" and key 5
+Call to 'setKey' returned: 0
 
 Options:
 1 - Insert a new item into the binary heap
@@ -61852,15 +62006,6 @@ Options:
 3 - Delete a specified item
 4 - Perform a deleteMin
 5 - Quit
-Choose an option: Enter an id string (to change its key): Enter an associated integer key: 
-Call to 'setKey' returned: 1
-
-Options:
-1 - Insert a new item into the binary heap
-2 - Set the key of a specified item
-3 - Delete a specified item
-4 - Perform a deleteMin
-5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
 Call to 'insert' returned: 2
 
@@ -61872,51 +62017,6 @@ Options:
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
 Call to 'insert' returned: 2
-
-Options:
-1 - Insert a new item into the binary heap
-2 - Set the key of a specified item
-3 - Delete a specified item
-4 - Perform a deleteMin
-5 - Quit
-Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 2
-
-Options:
-1 - Insert a new item into the binary heap
-2 - Set the key of a specified item
-3 - Delete a specified item
-4 - Perform a deleteMin
-5 - Quit
-Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 2
-
-Options:
-1 - Insert a new item into the binary heap
-2 - Set the key of a specified item
-3 - Delete a specified item
-4 - Perform a deleteMin
-5 - Quit
-Choose an option: Enter an id string (to change its key): Enter an associated integer key: 
-Call to 'setKey' returned: 1
-
-Options:
-1 - Insert a new item into the binary heap
-2 - Set the key of a specified item
-3 - Delete a specified item
-4 - Perform a deleteMin
-5 - Quit
-Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 2
-
-Options:
-1 - Insert a new item into the binary heap
-2 - Set the key of a specified item
-3 - Delete a specified item
-4 - Perform a deleteMin
-5 - Quit
-Choose an option: Enter an id string (to delete): 
-Call to 'delete' returned: 1
 
 Options:
 1 - Insert a new item into the binary heap
@@ -61944,6 +62044,69 @@ Options:
 3 - Delete a specified item
 4 - Perform a deleteMin
 5 - Quit
+Choose an option: Enter an id string (to change its key): Enter an associated integer key: 
+Call to 'setKey' returned: 0
+
+Options:
+1 - Insert a new item into the binary heap
+2 - Set the key of a specified item
+3 - Delete a specified item
+4 - Perform a deleteMin
+5 - Quit
+Choose an option: Enter an id string (to insert): Enter an associated integer key: 
+Call to 'insert' returned: 2
+
+Options:
+1 - Insert a new item into the binary heap
+2 - Set the key of a specified item
+3 - Delete a specified item
+4 - Perform a deleteMin
+5 - Quit
+Choose an option: Enter an id string (to insert): Enter an associated integer key: 
+Call to 'insert' returned: 2
+
+Options:
+1 - Insert a new item into the binary heap
+2 - Set the key of a specified item
+3 - Delete a specified item
+4 - Perform a deleteMin
+5 - Quit
+Choose an option: Enter an id string (to insert): Enter an associated integer key: 
+Call to 'insert' returned: 2
+
+Options:
+1 - Insert a new item into the binary heap
+2 - Set the key of a specified item
+3 - Delete a specified item
+4 - Perform a deleteMin
+5 - Quit
+Choose an option: Enter an id string (to insert): Enter an associated integer key: 
+Call to 'insert' returned: 2
+
+Options:
+1 - Insert a new item into the binary heap
+2 - Set the key of a specified item
+3 - Delete a specified item
+4 - Perform a deleteMin
+5 - Quit
+Choose an option: Enter an id string (to change its key): Enter an associated integer key: 
+Call to 'setKey' returned: 1
+
+Options:
+1 - Insert a new item into the binary heap
+2 - Set the key of a specified item
+3 - Delete a specified item
+4 - Perform a deleteMin
+5 - Quit
+Choose an option: Enter an id string (to insert): Enter an associated integer key: 
+Call to 'insert' returned: 2
+
+Options:
+1 - Insert a new item into the binary heap
+2 - Set the key of a specified item
+3 - Delete a specified item
+4 - Perform a deleteMin
+5 - Quit
 Choose an option: Enter an id string (to delete): 
 Call to 'delete' returned: 1
 
@@ -61954,7 +62117,27 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 0
+Call to 'insert' returned: 2
+
+Options:
+1 - Insert a new item into the binary heap
+2 - Set the key of a specified item
+3 - Delete a specified item
+4 - Perform a deleteMin
+5 - Quit
+Choose an option: 
+Call to 'deleteMin' returned: 0
+
+Deleted item with string id "string3" and key 8
+
+Options:
+1 - Insert a new item into the binary heap
+2 - Set the key of a specified item
+3 - Delete a specified item
+4 - Perform a deleteMin
+5 - Quit
+Choose an option: Enter an id string (to delete): 
+Call to 'delete' returned: 1
 
 Options:
 1 - Insert a new item into the binary heap
@@ -61964,6 +62147,15 @@ Options:
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
 Call to 'insert' returned: 2
+
+Options:
+1 - Insert a new item into the binary heap
+2 - Set the key of a specified item
+3 - Delete a specified item
+4 - Perform a deleteMin
+5 - Quit
+Choose an option: Enter an id string (to insert): Enter an associated integer key: 
+Call to 'insert' returned: 0
 
 Options:
 1 - Insert a new item into the binary heap
@@ -61992,7 +62184,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string3" and key 8
+Deleted item with string id "string3" and key 3
 
 Options:
 1 - Insert a new item into the binary heap
@@ -71903,7 +72095,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string7" and key 19
+Deleted item with string id "string14" and key 19
 
 Options:
 1 - Insert a new item into the binary heap
@@ -72084,7 +72276,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to change its key): Enter an associated integer key: 
-Call to 'setKey' returned: 0
+Call to 'setKey' returned: 1
 
 Options:
 1 - Insert a new item into the binary heap
@@ -72140,7 +72332,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 0
+Call to 'insert' returned: 2
 
 Options:
 1 - Insert a new item into the binary heap
@@ -72169,7 +72361,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string14" and key 1
+Deleted item with string id "string15" and key 2
 
 Options:
 1 - Insert a new item into the binary heap
@@ -72198,7 +72390,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string15" and key 2
+Deleted item with string id "string10" and key 6
 
 Options:
 1 - Insert a new item into the binary heap
@@ -72227,7 +72419,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string10" and key 6
+Deleted item with string id "string1" and key 9
 
 Options:
 1 - Insert a new item into the binary heap
@@ -72272,7 +72464,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 2
+Call to 'insert' returned: 0
 
 Options:
 1 - Insert a new item into the binary heap
@@ -72368,7 +72560,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string1" and key 9
+Deleted item with string id "string15" and key 10
 
 Options:
 1 - Insert a new item into the binary heap
@@ -72422,7 +72614,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to change its key): Enter an associated integer key: 
-Call to 'setKey' returned: 1
+Call to 'setKey' returned: 0
 
 Options:
 1 - Insert a new item into the binary heap
@@ -72431,7 +72623,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 0
+Call to 'insert' returned: 2
 
 Options:
 1 - Insert a new item into the binary heap
@@ -72460,7 +72652,7 @@ Options:
 Choose an option: Enter an id string (to delete): 
 Call to 'delete' returned: 0
 
-Deleted item with string id "string1" and key 4
+Deleted item with string id "string1" and key 15
 
 Options:
 1 - Insert a new item into the binary heap
@@ -72527,7 +72719,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string15" and key 10
+Deleted item with string id "string7" and key 13
 
 Options:
 1 - Insert a new item into the binary heap
@@ -72657,7 +72849,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 2
+Call to 'insert' returned: 0
 
 Options:
 1 - Insert a new item into the binary heap
@@ -83409,7 +83601,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string2" and key 5
+Deleted item with string id "string3" and key 3
 
 Options:
 1 - Insert a new item into the binary heap
@@ -83476,7 +83668,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string3" and key 3
+Deleted item with string id "string2" and key 5
 
 Options:
 1 - Insert a new item into the binary heap
@@ -84176,7 +84368,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string11" and key 15
+Deleted item with string id "string10" and key 15
 
 Options:
 1 - Insert a new item into the binary heap
@@ -84355,7 +84547,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 0
+Call to 'insert' returned: 2
 
 Options:
 1 - Insert a new item into the binary heap
@@ -84366,7 +84558,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string11" and key 4
+Deleted item with string id "string12" and key 9
 
 Options:
 1 - Insert a new item into the binary heap
@@ -84395,7 +84587,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string12" and key 9
+Deleted item with string id "string14" and key 9
 
 Options:
 1 - Insert a new item into the binary heap
@@ -84435,7 +84627,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string14" and key 9
+Deleted item with string id "string7" and key 10
 
 Options:
 1 - Insert a new item into the binary heap
@@ -84462,7 +84654,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 0
+Call to 'insert' returned: 2
 
 Options:
 1 - Insert a new item into the binary heap
@@ -84473,7 +84665,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string7" and key 10
+Deleted item with string id "string1" and key 11
 
 Options:
 1 - Insert a new item into the binary heap
@@ -84491,9 +84683,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to delete): 
-Call to 'delete' returned: 0
-
-Deleted item with string id "string10" and key 15
+Call to 'delete' returned: 1
 
 Options:
 1 - Insert a new item into the binary heap
@@ -84547,7 +84737,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 2
+Call to 'insert' returned: 0
 
 Options:
 1 - Insert a new item into the binary heap
@@ -84762,7 +84952,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string11" and key 5
+Deleted item with string id "string12" and key 5
 
 Options:
 1 - Insert a new item into the binary heap
@@ -84782,7 +84972,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string12" and key 5
+Deleted item with string id "string11" and key 5
 
 Options:
 1 - Insert a new item into the binary heap
@@ -84820,7 +85010,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string7" and key 10
+Deleted item with string id "string1" and key 6
 
 Options:
 1 - Insert a new item into the binary heap
@@ -84860,7 +85050,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string1" and key 11
+Deleted item with string id "string7" and key 10
 
 Options:
 1 - Insert a new item into the binary heap
@@ -87121,7 +87311,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string4" and key 9
+Deleted item with string id "string3" and key 9
 
 Options:
 1 - Insert a new item into the binary heap
@@ -87132,7 +87322,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string3" and key 9
+Deleted item with string id "string4" and key 9
 
 Options:
 1 - Insert a new item into the binary heap
@@ -88720,7 +88910,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string5" and key 20
+Deleted item with string id "string2" and key 15
 
 Options:
 1 - Insert a new item into the binary heap
@@ -88740,7 +88930,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string2" and key 15
+Deleted item with string id "string8" and key 15
 
 Options:
 1 - Insert a new item into the binary heap
@@ -88926,7 +89116,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 2
+Call to 'insert' returned: 0
 
 Options:
 1 - Insert a new item into the binary heap
@@ -89026,7 +89216,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string8" and key 15
+Deleted item with string id "string12" and key 16
 
 Options:
 1 - Insert a new item into the binary heap
@@ -89035,7 +89225,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to change its key): Enter an associated integer key: 
-Call to 'setKey' returned: 1
+Call to 'setKey' returned: 0
 
 Options:
 1 - Insert a new item into the binary heap
@@ -89044,7 +89234,9 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to delete): 
-Call to 'delete' returned: 1
+Call to 'delete' returned: 0
+
+Deleted item with string id "string5" and key 20
 
 Options:
 1 - Insert a new item into the binary heap
@@ -89109,7 +89301,9 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to delete): 
-Call to 'delete' returned: 1
+Call to 'delete' returned: 0
+
+Deleted item with string id "string8" and key 16
 
 Options:
 1 - Insert a new item into the binary heap
@@ -89156,7 +89350,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 2
+Call to 'insert' returned: 0
 
 Options:
 1 - Insert a new item into the binary heap
@@ -89303,7 +89497,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string12" and key 16
+Deleted item with string id "string2" and key 17
 
 Options:
 1 - Insert a new item into the binary heap
@@ -89312,7 +89506,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 0
+Call to 'insert' returned: 2
 
 Options:
 1 - Insert a new item into the binary heap
@@ -89480,7 +89674,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 2
+Call to 'insert' returned: 0
 
 Options:
 1 - Insert a new item into the binary heap
@@ -89621,7 +89815,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string12" and key 10
+Deleted item with string id "string3" and key 12
 
 Options:
 1 - Insert a new item into the binary heap
@@ -89742,17 +89936,6 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string3" and key 12
-
-Options:
-1 - Insert a new item into the binary heap
-2 - Set the key of a specified item
-3 - Delete a specified item
-4 - Perform a deleteMin
-5 - Quit
-Choose an option: 
-Call to 'deleteMin' returned: 0
-
 Deleted item with string id "string6" and key 13
 
 Options:
@@ -89787,6 +89970,17 @@ Choose an option:
 Call to 'deleteMin' returned: 0
 
 Deleted item with string id "string1" and key 16
+
+Options:
+1 - Insert a new item into the binary heap
+2 - Set the key of a specified item
+3 - Delete a specified item
+4 - Perform a deleteMin
+5 - Quit
+Choose an option: 
+Call to 'deleteMin' returned: 0
+
+Deleted item with string id "string5" and key 16
 
 Options:
 1 - Insert a new item into the binary heap
@@ -89833,7 +90027,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to change its key): Enter an associated integer key: 
-Call to 'setKey' returned: 0
+Call to 'setKey' returned: 1
 
 Options:
 1 - Insert a new item into the binary heap
@@ -89905,7 +90099,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 2
+Call to 'insert' returned: 0
 
 Options:
 1 - Insert a new item into the binary heap
@@ -90028,7 +90222,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string3" and key 6
+Deleted item with string id "string5" and key 6
 
 Options:
 1 - Insert a new item into the binary heap
@@ -90057,7 +90251,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 2
+Call to 'insert' returned: 0
 
 Options:
 1 - Insert a new item into the binary heap
@@ -90160,7 +90354,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 0
+Call to 'insert' returned: 2
 
 Options:
 1 - Insert a new item into the binary heap
@@ -90169,7 +90363,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 0
+Call to 'insert' returned: 2
 
 Options:
 1 - Insert a new item into the binary heap
@@ -90334,7 +90528,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string5" and key 6
+Deleted item with string id "string5" and key 8
 
 Options:
 1 - Insert a new item into the binary heap
@@ -90372,7 +90566,7 @@ Options:
 Choose an option: Enter an id string (to delete): 
 Call to 'delete' returned: 0
 
-Deleted item with string id "string2" and key 17
+Deleted item with string id "string2" and key 18
 
 Options:
 1 - Insert a new item into the binary heap
@@ -90606,7 +90800,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string13" and key 15
+Deleted item with string id "string5" and key 15
 
 Options:
 1 - Insert a new item into the binary heap
@@ -90624,7 +90818,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to change its key): Enter an associated integer key: 
-Call to 'setKey' returned: 0
+Call to 'setKey' returned: 1
 
 Options:
 1 - Insert a new item into the binary heap
@@ -90644,7 +90838,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string12" and key 16
+Deleted item with string id "string13" and key 15
 
 Options:
 1 - Insert a new item into the binary heap
@@ -90664,7 +90858,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string5" and key 17
+Deleted item with string id "string14" and key 17
 
 Options:
 1 - Insert a new item into the binary heap
@@ -90682,7 +90876,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 0
+Call to 'insert' returned: 2
 
 Options:
 1 - Insert a new item into the binary heap
@@ -90807,7 +91001,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 2
+Call to 'insert' returned: 0
 
 Options:
 1 - Insert a new item into the binary heap
@@ -90838,7 +91032,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string12" and key 14
+Deleted item with string id "string14" and key 13
 
 Options:
 1 - Insert a new item into the binary heap
@@ -90858,7 +91052,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string14" and key 17
+Deleted item with string id "string13" and key 18
 
 Options:
 1 - Insert a new item into the binary heap
@@ -90869,7 +91063,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string8" and key 18
+Deleted item with string id "string9" and key 18
 
 Options:
 1 - Insert a new item into the binary heap
@@ -90974,7 +91168,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 0
+Call to 'insert' returned: 2
 
 Options:
 1 - Insert a new item into the binary heap
@@ -91034,7 +91228,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string9" and key 18
+Deleted item with string id "string8" and key 18
 
 Options:
 1 - Insert a new item into the binary heap
@@ -91045,7 +91239,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string13" and key 18
+Deleted item with string id "string7" and key 19
 
 Options:
 1 - Insert a new item into the binary heap
@@ -91065,7 +91259,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string7" and key 19
+Deleted item with string id "string11" and key 20
 
 Options:
 1 - Insert a new item into the binary heap
@@ -91170,7 +91364,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 2
+Call to 'insert' returned: 0
 
 Options:
 1 - Insert a new item into the binary heap
@@ -91307,7 +91501,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string10" and key 7
+Deleted item with string id "string11" and key 7
 
 Options:
 1 - Insert a new item into the binary heap
@@ -91448,9 +91642,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to delete): 
-Call to 'delete' returned: 0
-
-Deleted item with string id "string11" and key 20
+Call to 'delete' returned: 1
 
 Options:
 1 - Insert a new item into the binary heap
@@ -91627,7 +91819,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string8" and key 9
+Deleted item with string id "string10" and key 7
 
 Options:
 1 - Insert a new item into the binary heap
@@ -91636,18 +91828,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 0
-
-Options:
-1 - Insert a new item into the binary heap
-2 - Set the key of a specified item
-3 - Delete a specified item
-4 - Perform a deleteMin
-5 - Quit
-Choose an option: 
-Call to 'deleteMin' returned: 0
-
-Deleted item with string id "string8" and key 8
+Call to 'insert' returned: 2
 
 Options:
 1 - Insert a new item into the binary heap
@@ -91659,6 +91840,17 @@ Choose an option:
 Call to 'deleteMin' returned: 0
 
 Deleted item with string id "string14" and key 9
+
+Options:
+1 - Insert a new item into the binary heap
+2 - Set the key of a specified item
+3 - Delete a specified item
+4 - Perform a deleteMin
+5 - Quit
+Choose an option: 
+Call to 'deleteMin' returned: 0
+
+Deleted item with string id "string8" and key 9
 
 Options:
 1 - Insert a new item into the binary heap
@@ -93946,7 +94138,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string3" and key 9
+Deleted item with string id "string6" and key 9
 
 Options:
 1 - Insert a new item into the binary heap
@@ -93973,9 +94165,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to delete): 
-Call to 'delete' returned: 0
-
-Deleted item with string id "string6" and key 9
+Call to 'delete' returned: 1
 
 Options:
 1 - Insert a new item into the binary heap
@@ -93984,7 +94174,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 0
+Call to 'insert' returned: 2
 
 Options:
 1 - Insert a new item into the binary heap
@@ -93995,7 +94185,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string15" and key 11
+Deleted item with string id "string3" and key 9
 
 Options:
 1 - Insert a new item into the binary heap
@@ -94035,7 +94225,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string3" and key 11
+Deleted item with string id "string15" and key 11
 
 Options:
 1 - Insert a new item into the binary heap
@@ -94601,7 +94791,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string14" and key 16
+Deleted item with string id "string10" and key 16
 
 Options:
 1 - Insert a new item into the binary heap
@@ -94619,7 +94809,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 2
+Call to 'insert' returned: 0
 
 Options:
 1 - Insert a new item into the binary heap
@@ -94657,7 +94847,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to change its key): Enter an associated integer key: 
-Call to 'setKey' returned: 1
+Call to 'setKey' returned: 0
 
 Options:
 1 - Insert a new item into the binary heap
@@ -94769,7 +94959,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to change its key): Enter an associated integer key: 
-Call to 'setKey' returned: 1
+Call to 'setKey' returned: 0
 
 Options:
 1 - Insert a new item into the binary heap
@@ -94832,7 +95022,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 0
+Call to 'insert' returned: 2
 
 Options:
 1 - Insert a new item into the binary heap
@@ -95004,7 +95194,7 @@ Options:
 Choose an option: 
 Call to 'deleteMin' returned: 0
 
-Deleted item with string id "string14" and key 12
+Deleted item with string id "string8" and key 15
 
 Options:
 1 - Insert a new item into the binary heap
@@ -95076,7 +95266,7 @@ Options:
 4 - Perform a deleteMin
 5 - Quit
 Choose an option: Enter an id string (to insert): Enter an associated integer key: 
-Call to 'insert' returned: 2
+Call to 'insert' returned: 0
 
 Options:
 1 - Insert a new item into the binary heap

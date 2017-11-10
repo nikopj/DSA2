@@ -77,6 +77,9 @@ private:
   std::vector<node> data; // The actual binary heap
   hashTable *mapping; // maps ids to node pointers
 
+  // Decides whether to percolate up or down
+  void percolate(int posCur);
+
   // Moves node at current position up
   // through tree if key < parents key.
   // Stops at root

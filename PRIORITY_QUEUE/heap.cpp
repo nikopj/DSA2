@@ -14,7 +14,7 @@ heap::heap(int capacity){
   data.resize(capacity+1);
   mapping = new hashTable(capacity*2);
   size = 0;
-  this->capacity = capacity+1;
+  this->capacity = capacity;
 }
 
 // insert - Inserts a new node into the binary heap
@@ -72,20 +72,8 @@ int heap::setKey(const string &id, int key){
   if(size==1){
     return 0;
   }
+  percolate(i);
 
-  // percolation
-  if(key<data.at(i/2).key){ //key less than parent's
-    percolateUp(i);
-  } else if(size>=2*i){ // 1st child exists
-    if(key>data.at(2*i).key){ // 1st childs key less than that of parent
-      percolateDown(i);
-
-    } else if(size>=2*i+1){ // 2nd child exists
-      if(key>data.at(2*i+1).key){ // 2nds childs key less than
-        percolateDown(i);
-      }
-    }
-  }
   return 0;
 }
 
@@ -171,7 +159,7 @@ int heap::remove(const string &id, int *pKey, void *ppData){
     size--;
     return 0;
   }
-  // move last item to position i, percolate down
+  // move last item to position i, percolate
   data[i].id = data.at(size).id;
   data[i].key = data.at(size).key;
   data[i].pData = data.at(size).pData;
@@ -180,8 +168,18 @@ int heap::remove(const string &id, int *pKey, void *ppData){
     cerr<<"Remove_ERROR: Pointer not set!"<<endl;
   }
   size--;
-  percolateDown(i);
+  percolate(i);
   return 0;
+}
+
+// Decides whether to percolate up or down
+void heap::percolate(int posCur){
+  if(posCur>1 && (data.at(posCur).key<data.at(posCur/2).key)){
+    percolateUp(posCur);
+  } else if((2*posCur<=size && data.at(posCur).key>data.at(2*posCur).key)||
+          (2*posCur+1<=size && data.at(posCur).key>data.at(2*posCur+1).key)){
+    percolateDown(posCur);
+  }
 }
 
 // Moves node at current position up
@@ -224,10 +222,11 @@ void heap::percolateDown(int posCur){
   int temp_key = data.at(posCur).key;
   void *temp_pData = data.at(posCur).pData;
 
-  while((2*posCur<size) && (temp_key>data.at(2*posCur).key||temp_key>data.at(2*posCur+1).key)){
+  while((2*posCur<=size && temp_key>data.at(2*posCur).key)||
+      (2*posCur+1<=size && temp_key>data.at(2*posCur+1).key)){
     // check if node swap occurs with left or right child
     int n;
-    if(2*posCur+1>size){
+    if(2*posCur+1>size){ // no right child
       n = 0;
     } else if(data.at(2*posCur).key<=data.at(2*posCur+1).key){
       n = 0;
